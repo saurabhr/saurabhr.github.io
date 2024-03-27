@@ -1,20 +1,20 @@
 # main text of home
-name: Jane Doe
-bio: A Girl who travels the world eating noodles
+name: Saurabh Ranjan
+bio: Metacognition, Reality Monitoring, Cognitive Neuroscience, AI, Consciousness
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Personal Website
 
 picture: assets/images/picture.jpg
 
-url: http://koppl.in/violet
+url: https://saurabhr.github.io
 # your url: http://USERNAME.github.io
 
 # if you don't have any of social below, comment the line
 facebook: myfacebook
 twitter: mytwitter
-github: mygithub
-email: me@jane.doe
+github: https://github.com/saurabhr
+email: ranjan.saurabh@outlook.com
 
 gems:
   - jekyll-seo-tag

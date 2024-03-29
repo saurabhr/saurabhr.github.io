@@ -7,6 +7,9 @@ description: Personal Website
 
 picture: assets/images/greyscale.jpg
 
+# google analytics
+google_analytics: G-CCTDL9XB1Z
+
 url: https://saurabhr.github.io
 # your url: http://USERNAME.github.io
 

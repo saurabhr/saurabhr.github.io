@@ -1,7 +1,7 @@
 .layout
   width: 100%
   display: grid
-  grid-template-columns: 1fr 2fr 2fr
+  grid-template-columns: 1fr 1fr 40%
   gap: 20px
 
   &-header
@@ -14,3 +14,15 @@
 
   &-section2
     padding: 20px
+    max-height: 90vh
+    overflow-y: auto
+
+@media (max-width: 800px)
+  .layout
+    grid-template-columns: 1fr
+    gap: 10px
+
+  .layout-header,
+  .layout-section1,
+  .layout-section2
+    grid-column: span 1

@@ -4,6 +4,7 @@
   grid-template-columns: min-content max-content auto
   gap: 16px
   height: 100%
+  overflow-y: hidden
 
   &-header
     grid-column: span 1
@@ -24,11 +25,13 @@
 
     .bibbase
       display: block
+      height: 100%
 
 @media (max-width: 1000px)
   .layout
     grid-template-columns: 1fr
     gap: 10px
+    overflow-y: auto
 
   .layout-header,
   .layout-section1

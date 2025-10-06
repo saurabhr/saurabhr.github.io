@@ -1,8 +1,3 @@
-<p align="center">
-    <h2 align="center">Violet Jekyll Template - <a href="http://sergiokopplin.github.io/violet/">Demo</a> · <a href="https://travis-ci.org/sergiokopplin/violet"><img src="https://travis-ci.org/sergiokopplin/violet.svg?branch=gh-pages" alt="Build Status" /></a></h2>
-</p>
-
-***
 
 <p align="center">
     <b><a href="README.md#what-has-inside">What has inside?</a></b>

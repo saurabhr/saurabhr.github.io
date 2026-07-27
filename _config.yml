@@ -1,9 +1,12 @@
 # main text of home
 name: Saurabh Ranjan
+title: Saurabh Ranjan
 bio: Metacognition, Reality Monitoring, Cognitive Neuroscience, AI, Consciousness
 
-# twitter summary info
-description: Personal Website
+# SEO: meta description + social preview
+description: Saurabh Ranjan — Ph.D. cognitive neuroscientist researching reality monitoring, metacognition, and AI safety, bridging human cognition and large language models.
+image: /assets/images/greyscale.jpg
+lang: en
 
 picture: assets/images/greyscale.jpg
 
@@ -15,11 +18,25 @@ url: https://saurabhr.github.io
 
 # if you don't have any of social below, comment the line
 bluesky: saurabhr.bsky.social
-twitter: saurabhbluebird
+twitter_handle: saurabhbluebird
 github: saurabhr
 email: saurabh.ranjan@ufl.edu
 
+twitter:
+  username: saurabhbluebird
+  card: summary
+
+social:
+  name: Saurabh Ranjan
+  links:
+    - https://github.com/saurabhr
+    - https://twitter.com/saurabhbluebird
+    - https://bsky.app/profile/saurabhr.bsky.social
+    - https://scholar.google.com/citations?user=bzE80XYAAAAJ&hl=en
+    - https://orcid.org/0000-0002-7868-7223
+
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude: [README.md, Gemfile, Gemfile.lock, _site, Rakefile, travis.sh, vendor]

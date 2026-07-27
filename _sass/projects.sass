@@ -1,0 +1,85 @@
+.projects-section
+  margin: 60px auto 100px
+  padding-top: 40px
+  border-top: 1px solid rgba(237, 230, 213, 0.15)
+  max-width: 1100px
+
+  h1
+    text-align: center
+
+.projects-grid
+  display: grid
+  grid-template-columns: 260px 1fr 260px
+  gap: 20px
+
+  @media (max-width: 1000px)
+    grid-template-columns: 1fr
+    gap: 10px
+
+.projects-col h2
+  font-size: 1.1em
+  color: $alpha
+  margin-bottom: 15px
+
+.proj-list
+  display: flex
+  flex-direction: column
+  gap: 10px
+
+.proj-btn
+  display: block
+  width: 100%
+  text-align: left
+  background: #19111f
+  color: $beta
+  border: 1px solid rgba(160, 133, 198, 0.3)
+  border-radius: 5px
+  padding: 12px
+  font-family: $font
+  font-size: 14px
+  cursor: pointer
+
+  &:hover
+    background: #2c1e37
+
+  &.active
+    background: $alpha
+    color: #19111f
+    border-color: $alpha
+
+.proj-sub
+  font-size: 0.8em
+  opacity: 0.7
+
+.projects-detail
+  background: rgba(44, 30, 55, 0.6)
+  border: 1px solid rgba(160, 133, 198, 0.3)
+  border-radius: 8px
+  padding: 20px
+  max-height: 480px
+  overflow-y: auto
+
+.proj-content
+  display: none
+
+  &.active
+    display: block
+
+.proj-icon
+  font-size: 2.5em
+  margin-bottom: 10px
+
+.proj-content h3
+  font-size: 1.1em
+  margin-bottom: 15px
+
+.proj-content ul
+  list-style: disc
+  margin: 0 0 15px 20px
+  padding: 0
+
+.proj-content li
+  margin-bottom: 8px
+
+.proj-links
+  margin-top: 10px

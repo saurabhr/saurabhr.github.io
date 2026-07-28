@@ -105,24 +105,26 @@ title: Saurabh Ranjan | Cognitive Neuroscience & AI Research
 
       <div class="proj-content active" id="reality-monitoring">
         <h3>Reality Monitoring with Humans and LLMs</h3>
+        <img src="assets/images/projects/reality-monitoring-metacognition.jpg" alt="Raincloud plot showing metacognitive ability (confidence tracking accuracy) is much higher for perceived items than for imagined or new items">
         <ul>
           <li>Discovered that humans and LLMs share a core "reality monitoring" capability (telling self-generated from externally-generated information) that fails during hallucination in both.</li>
+          <li>Using a false-memory (DRM) paradigm, found that confidence tracked accuracy far better for perceived items (metacognitive gamma = 0.48) than for imagined or entirely new ones (gamma 0.12-0.22); imagined and new were statistically indistinguishable from each other.</li>
           <li>Ran behavioral experiments with 100+ human participants matched against LLM simulations, producing standardized human–LLM benchmarking pipelines.</li>
           <li>Identified a dissociation between single-trial and conversation-memory regimes in LLMs that inverts source-attribution accuracy, with direct implications for how clinical AI assistants should manage chart history and cited evidence.</li>
-          <li>Published in <i>Neuroscience Research</i> (2024) and presented at the Psychonomic Society and APS annual meetings.</li>
-          <li>Currently extending this into a benchmark for "information generation awareness" in frontier LLMs (working paper).</li>
+          <li>Published in <i>Neuroscience Research</i> (2024); currently extending this into a benchmark for "information generation awareness" in frontier LLMs (working paper).</li>
         </ul>
         <p class="proj-links"><a href="https://github.com/saurabhr/LLM-RM" target=_blank>GitHub: LLM-RM</a> &middot; <a href="https://github.com/saurabhr/predict_perception_imagination_tgm" target=_blank>GitHub: predict_perception_imagination_tgm</a> &middot; <a href="https://scholar.google.com/citations?user=bzE80XYAAAAJ&hl=en" target=_blank>Papers</a></p>
       </div>
 
       <div class="proj-content" id="imagination">
         <h3>Human Imagination Psychological Networks</h3>
+        <img src="assets/images/projects/imagination-networks.jpg" alt="Imagination networks from the VVIQ-2 questionnaire compared across human populations and six LLMs, showing humans cluster consistently while LLMs do not">
         <ul>
           <li>Proposed a new computational model of visual imagination that reframes the heterarchy-vs-hierarchy debate in brain theory (<i>Physics of Life Reviews</i>, 2024).</li>
           <li>Built imagination networks from 2,743 participants across Florida, London, and Poland, and compared them against six LLMs (Gemma3-12B/27B, Llama3.3-70B, Llama4-16x17B).</li>
-          <li>Human networks replicated across populations (r = 0.31-0.93); LLMs did not, most produced degenerate, single-cluster structure regardless of model scale.</li>
+          <li>Human networks replicated across populations (r = 0.31-0.93); LLMs showed roughly a 5-fold weaker alignment with humans, regardless of model scale (12B-272B parameters) or conversational memory.</li>
+          <li>Most LLM configurations produced degenerate, single-cluster network structure with no human-like organization (median alignment score = 0).</li>
           <li>Published "Psychological Imagination Networks Show Cross-Population Centrality and Clustering Alignment in Humans That Large Language Models Fail to Replicate" (arXiv:2510.04391, 2025).</li>
-          <li>Argues the gap reflects memory built through embodied experience, something text-only training doesn't reproduce.</li>
         </ul>
         <p class="proj-links"><a href="https://github.com/saurabhr/imagine_world_model" target=_blank>GitHub: imagine_world_model</a> &middot; <a href="https://arxiv.org/abs/2510.04391" target=_blank>Preprint (arXiv)</a></p>
       </div>
@@ -141,9 +143,10 @@ title: Saurabh Ranjan | Cognitive Neuroscience & AI Research
 
       <div class="proj-content" id="agency">
         <h3>Sense of Agency</h3>
+        <img src="assets/images/projects/sense-of-agency-task.jpg" alt="Task diagram showing an intention leading through an intermediate outcome to a final outcome, with the intentional-binding measure of sense of agency">
         <ul>
-          <li>Investigated the sense of agency for future-directed intentions using the intentional binding paradigm.</li>
-          <li>Showed intentional binding effects extend to intermediate outcomes, not just final ones, evidence for graded, forward-looking self-monitoring.</li>
+          <li>Investigated the sense of agency for future-directed intentions using the intentional binding paradigm (e.g., forming an intention now for an outcome reached via an intermediate action).</li>
+          <li>Found shorter time estimates and faster response times, both signs of stronger intentional binding, for intermediate outcomes that predicted the intended final outcome, consistent across three delays (300/500/700ms) and two contingency levels.</li>
           <li>Led the full research lifecycle solo: hypothesis, design, data collection, and analysis.</li>
           <li>Shared as an OSF preprint and presented at the Annual Conference of Cognitive Science, IIT-Guwahati (2018).</li>
           <li>Foundational to later work on self-monitoring and control: the same construct now central to agentic AI systems that plan and act autonomously.</li>
@@ -153,6 +156,7 @@ title: Saurabh Ranjan | Cognitive Neuroscience & AI Research
 
       <div class="proj-content" id="psychscanner">
         <h3>Psych Scanner</h3>
+        <img src="assets/images/projects/psychscanner-logo.png" alt="Psych Scanner wordmark">
         <ul>
           <li>Built a production-grade Python framework (LangChain + LangGraph + Pydantic) for running cognitive experiments with LLMs at scale.</li>
           <li>Automates and scales "LLMs as a participant" studies, replacing ad hoc scripts with a reusable, tested pipeline.</li>
@@ -165,12 +169,13 @@ title: Saurabh Ranjan | Cognitive Neuroscience & AI Research
 
       <div class="proj-content" id="metasignal">
         <h3>MetaSignal</h3>
+        <img src="assets/images/projects/metasignal-architecture.jpg" alt="MetaSignal architecture diagram showing input data flowing through the stdpy SDT core and metacognitive measures into analysis and CLI layers">
         <ul>
-          <li>A Python package implementing standard Signal Detection Theory metrics (d&prime;, criterion) and metacognitive measures (meta-d&prime;) for confidence/accuracy research.</li>
-          <li>Replaces the outdated MATLAB toolboxes most labs still use for meta-d&prime; estimation with a modern, reusable Python package.</li>
+          <li>A Python package implementing 20 metacognitive/SDT measures (d&prime;, meta-d&prime;, M-ratio, Type-2 AUC, gamma, and more) plus 6 model-fit diagnostics, all from one function call.</li>
+          <li>Validated against Rahnev (2025)'s MATLAB pipeline across 6 published datasets, replacing the aging MATLAB toolboxes most labs still rely on.</li>
           <li>Built to support reality-monitoring and metacognition studies across the Odegaard Lab.</li>
           <li>Most actively developed repo in 2026: the computational backbone behind ongoing lab analyses.</li>
-          <li>Open-source and reused across multiple published papers.</li>
+          <li>Open-source, with optional Bayesian (7 estimation approaches) and information-theoretic metacognition modules.</li>
         </ul>
         <p class="proj-links"><a href="https://github.com/saurabhr/metasignal" target=_blank>GitHub: metasignal</a></p>
       </div>

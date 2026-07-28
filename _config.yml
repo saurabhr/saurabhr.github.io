@@ -18,19 +18,19 @@ url: https://saurabhr.github.io
 
 # if you don't have any of social below, comment the line
 bluesky: saurabhr.bsky.social
-twitter_handle: saurabhbluebird
+twitter_handle: researchingcog
 github: saurabhr
 email: saurabh.ranjan@ufl.edu
 
 twitter:
-  username: saurabhbluebird
+  username: researchingcog
   card: summary
 
 social:
   name: Saurabh Ranjan
   links:
     - https://github.com/saurabhr
-    - https://twitter.com/saurabhbluebird
+    - https://twitter.com/researchingcog
     - https://bsky.app/profile/saurabhr.bsky.social
     - https://scholar.google.com/citations?user=bzE80XYAAAAJ&hl=en
     - https://orcid.org/0000-0002-7868-7223

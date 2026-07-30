@@ -40,9 +40,7 @@
   @media (max-width: 1100px)
     grid-template-columns: 1fr
     gap: 15px
-
-    .projects-detail
-      order: 1
+    padding-bottom: 50vh
 
 .projects-col
   display: flex
@@ -94,6 +92,16 @@
   font-size: 15px
   height: 460px
   overflow-y: auto
+
+  @media (max-width: 1100px)
+    position: fixed
+    left: 12px
+    right: 12px
+    bottom: 12px
+    height: 45vh
+    background: #2c1e37
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6)
+    z-index: 50
 
 .proj-content
   display: none

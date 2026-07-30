@@ -96,7 +96,8 @@ title: Saurabh Ranjan | Cognitive Neuroscience & AI Research
     <div class="projects-col">
       <h3>Natural &amp; Artificial Minds</h3>
       <div class="proj-list">
-        <button class="proj-btn active" data-proj="reality-monitoring">Reality Monitoring<br>with Humans and LLMs</button>
+        <button class="proj-btn active" data-proj="reality-monitoring-human">Reality Monitoring<br>in Humans</button>
+        <button class="proj-btn" data-proj="reality-monitoring-llm">Reality Monitoring<br>in LLMs</button>
         <button class="proj-btn" data-proj="imagination">Human Imagination Psychological Networks</button>
         <button class="proj-btn" data-proj="education">Education and Cognition</button>
         <button class="proj-btn" data-proj="agency">Sense of Agency</button>
@@ -105,17 +106,28 @@ title: Saurabh Ranjan | Cognitive Neuroscience & AI Research
 
     <div class="projects-detail">
 
-      <div class="proj-content active" id="reality-monitoring">
-        <h3>Reality Monitoring with Humans and LLMs</h3>
+      <div class="proj-content active" id="reality-monitoring-human">
+        <h3>Reality Monitoring in Humans</h3>
         <img src="assets/images/projects/reality-monitoring-metacognition.jpg" alt="Raincloud plot showing metacognitive ability (confidence tracking accuracy) is much higher for perceived items than for imagined or new items">
         <ul>
-          <li>Discovered that humans and LLMs share a core "reality monitoring" capability (telling self-generated from externally-generated information) that fails during hallucination in both.</li>
-          <li>Using a false-memory (DRM) paradigm, found that confidence tracked accuracy far better for perceived items (metacognitive gamma = 0.48) than for imagined or entirely new ones (gamma 0.12-0.22); imagined and new were statistically indistinguishable from each other.</li>
-          <li>Ran behavioral experiments with 100+ human participants matched against LLM simulations, producing standardized human–LLM benchmarking pipelines.</li>
-          <li>Identified a dissociation between single-trial and conversation-memory regimes in LLMs that inverts source-attribution accuracy, with direct implications for how clinical AI assistants should manage chart history and cited evidence.</li>
-          <li>Published in <i>Neuroscience Research</i> (2024); extended this into "Reality Monitoring in Large Language Models: Self-Knowledge That Transforms with Conversation Memory" (with Konstantina Sokratous and Brian Odegaard), posted as a preprint in July 2026.</li>
+          <li>Built a reality-monitoring task using the DRM (Deese-Roediger-McDermott) false-memory paradigm: participants either perceived or voluntarily imagined the second word in word pairs, then later judged test words as perceived, imagined, or new.</li>
+          <li>Found reality monitoring was better for perceived and new sources than imagined ones, with participants often misremembering imagined items as perceived &mdash; an "externalizing bias."</li>
+          <li>Found metacognitive ability (confidence tracking accuracy) was highest for perceived items (gamma = 0.48) versus imagined or new ones (gamma 0.12-0.22), which were statistically indistinguishable from each other.</li>
+          <li>Published as "Reality Monitoring and Metacognitive Judgments in a False-Memory Paradigm," <i>Neuroscience Research</i> (2024).</li>
         </ul>
-        <p class="proj-links"><a href="https://github.com/saurabhr/LLM-RM" target=_blank>GitHub: LLM-RM</a> &middot; <a href="https://github.com/saurabhr/predict_perception_imagination_tgm" target=_blank>GitHub: predict_perception_imagination_tgm</a> &middot; <a href="https://arxiv.org/abs/2607.23927" target=_blank>Preprint (arXiv)</a> &middot; <a href="https://scholar.google.com/citations?user=bzE80XYAAAAJ&hl=en" target=_blank>Papers</a></p>
+        <p class="proj-links"><a href="https://github.com/saurabhr/predict_perception_imagination_tgm" target=_blank>GitHub: predict_perception_imagination_tgm</a> &middot; <a href="https://scholar.google.com/citations?user=bzE80XYAAAAJ&hl=en" target=_blank>Papers</a></p>
+      </div>
+
+      <div class="proj-content" id="reality-monitoring-llm">
+        <h3>Reality Monitoring in LLMs</h3>
+        <ul>
+          <li>Tested whether six LLMs (Gemma3-12B/27B and their quantization-aware variants, Llama3.3-70B, Llama4-16x17B) show reality monitoring, adapting the same DRM-based paradigm and materials used in the human study.</li>
+          <li>Experiment 1 (single-trial): self-generated items reached ceiling accuracy across all models regardless of memory condition, while externally-provided items showed substantial variability.</li>
+          <li>Experiment 2 (episodic delay): that pattern reversed once a memory delay removed the single-turn shortcut &mdash; mean accuracy fell to 66% for perceived items and 48% for imagined items.</li>
+          <li>Found that corrective feedback restructures how source evidence maps to confidence differently across architectures &mdash; some models swap their internal/external judgments entirely, others gain accuracy while confidence decouples from correctness &mdash; relevant to clinical AI assistants that need to track not just what they know but where it came from over long conversations.</li>
+          <li>Published as "Reality Monitoring in Large Language Models: Self-Knowledge That Transforms with Conversation Memory" (with Konstantina Sokratous and Brian Odegaard), preprint, July 2026.</li>
+        </ul>
+        <p class="proj-links"><a href="https://github.com/saurabhr/LLM-RM" target=_blank>GitHub: LLM-RM</a> &middot; <a href="https://arxiv.org/abs/2607.23927" target=_blank>Preprint (arXiv)</a></p>
       </div>
 
       <div class="proj-content" id="imagination">

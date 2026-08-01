@@ -126,7 +126,8 @@ title: Saurabh Ranjan | Cognitive Neuroscience & AI Research
           <li>Tested whether six LLMs (Gemma3-12B/27B and their quantization-aware variants, Llama3.3-70B, Llama4-16x17B) show reality monitoring, adapting the same DRM-based paradigm and materials used in the human study.</li>
           <li>Experiment 1 (single-trial): self-generated items reached ceiling accuracy across all models regardless of memory condition, while externally-provided items showed substantial variability.</li>
           <li>Experiment 2 (episodic delay): that pattern reversed once a memory delay removed the single-turn shortcut &mdash; mean accuracy fell to 66% for perceived items and 48% for imagined items.</li>
-          <li>Found that corrective feedback restructures how source evidence maps to confidence differently across architectures &mdash; some models swap their internal/external judgments entirely, others gain accuracy while confidence decouples from correctness &mdash; relevant to clinical AI assistants that need to track not just what they know but where it came from over long conversations.</li>
+          <li>Found that corrective feedback restructures how source evidence maps to confidence differently across architectures &mdash; some models swap their internal/external judgments entirely, others gain accuracy while confidence decouples from correctness &mdash; a dissociation invisible to standard accuracy benchmarks and relevant to any AI system operating autonomously across long, multi-turn interactions.</li>
+          <li>Across models, the failure pattern tracked active, not aggregate, parameter count &mdash; evidence that evaluating what a model knows isn't enough; tracking where that knowledge came from may matter just as much.</li>
         </ul>
         <p class="proj-links"><a href="https://github.com/saurabhr/LLM-RM" target=_blank>GitHub: LLM-RM</a> &middot; <a href="https://arxiv.org/abs/2607.23927" target=_blank>Preprint (arXiv)</a></p>
       </div>
@@ -164,6 +165,7 @@ title: Saurabh Ranjan | Cognitive Neuroscience & AI Research
         <ul>
           <li>Investigated the sense of agency for future-directed intentions using the intentional binding paradigm (e.g., forming an intention now for an outcome reached via an intermediate action).</li>
           <li>Found shorter time estimates and faster response times, both signs of stronger intentional binding, for intermediate outcomes that predicted the intended final outcome, consistent across three delays (300/500/700ms) and two contingency levels.</li>
+          <li>The same construct, monitoring and correctly attributing one's own actions, now underlies how agentic AI systems track and self-correct across multi-step plans.</li>
         </ul>
         <p class="proj-links"><a href="https://doi.org/10.31234/osf.io/qa93k" target=_blank>Preprint (OSF)</a></p>
       </div>
@@ -189,6 +191,7 @@ title: Saurabh Ranjan | Cognitive Neuroscience & AI Research
           <li>Validated against Rahnev (2025)'s MATLAB pipeline across 6 published datasets, replacing the aging MATLAB toolboxes most labs still rely on.</li>
           <li>Unifies signal detection theory, meta-d&prime;, Bayesian estimation, and information-theoretic metacognition, measures scattered across separate toolboxes, under a single Python library.</li>
           <li>Open-source, with optional Bayesian (7 estimation approaches) and information-theoretic metacognition modules.</li>
+          <li>Pairs with Psych Scanner to score confidence data from LLM cognitive experiments; the same SDT/metacognition math applies whether the confidence-rated decisions come from a human participant or a model.</li>
           <li>Welcomes contributions, with full <a href="https://metasignal.readthedocs.io/en/latest/" target=_blank>documentation</a>, a <a href="https://github.com/saurabhr/metasignal/blob/main/CONTRIBUTING.md" target=_blank>contributing guide</a>, and a <a href="https://metasignal.readthedocs.io/en/latest/roadmap/" target=_blank>roadmap</a>.</li>
         </ul>
         <p class="proj-links"><a href="https://github.com/saurabhr/metasignal" target=_blank>GitHub: metasignal</a></p>

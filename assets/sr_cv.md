@@ -1,4 +1,13 @@
 
+# ◆ SAURABH RANJAN ◆
+
+Gainesville, FL, U.S.A.  •  ranjan.saurabh@outlook.com  •  saurabhr.github.io
+
+**Ph.D. Cognitive Neuroscientist**  \|  **AI / ML Researcher**  \|  **Cognitive and Machine Psychology**  \|  **NeuroAI**
+
+[View this CV online](https://saurabhr.github.io/#cv)
+
+---
 
 **EDUCATION**
 

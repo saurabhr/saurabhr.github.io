@@ -3,16 +3,22 @@ document.addEventListener("DOMContentLoaded", function () {
   const buttons = document.querySelectorAll(".tab-button");
   const contents = document.querySelectorAll(".tab-content");
 
-  buttons.forEach((button) => {
-    button.addEventListener("click", () => {
-      buttons.forEach((btn) => btn.classList.remove("active"));
-      contents.forEach((content) => content.classList.remove("active"));
+  function activate(tab) {
+    const button = document.querySelector(`.tab-button[data-tab="${tab}"]`);
+    const content = document.getElementById(tab);
+    if (!button || !content) return;
+    buttons.forEach((btn) => btn.classList.remove("active"));
+    contents.forEach((c) => c.classList.remove("active"));
+    button.classList.add("active");
+    content.classList.add("active");
+  }
 
-      button.classList.add("active");
-      const tab = button.getAttribute("data-tab");
-      document.getElementById(tab).classList.add("active");
-    });
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => activate(button.getAttribute("data-tab")));
   });
+
+  const initialTab = window.location.hash.replace("#", "");
+  if (initialTab) activate(initialTab);
 });
 
 </script>

@@ -112,7 +112,7 @@ title: Saurabh Ranjan | Cognitive Neuroscience & AI Research
         <h3>Reality Monitoring in Humans</h3>
         <img src="assets/images/projects/reality-monitoring-metacognition.jpg" alt="Raincloud plot showing metacognitive ability (confidence tracking accuracy) is much higher for perceived items than for imagined or new items">
         <ul>
-          <li>Built a reality-monitoring task using the DRM (Deese-Roediger-McDermott) false-memory paradigm: participants either perceived or voluntarily imagined the second word in word pairs, then later judged test words as perceived, imagined, or new.</li>
+          <li>Built a reality-monitoring task using the DRM (Deese-Roediger-McDermott) false-memory stimulus: participants either perceived or voluntarily imagined the second word in word pairs, then later judged test words as perceived, imagined, or new.</li>
           <li>Found reality monitoring was better for perceived and new sources than imagined ones, with participants often misremembering imagined items as perceived &mdash; an "externalizing bias."</li>
           <li>Found metacognitive ability (confidence tracking accuracy) was highest for perceived items (gamma = 0.48) versus imagined or new ones (gamma 0.12-0.22), which were statistically indistinguishable from each other.</li>
           <li>Published as "Reality Monitoring and Metacognitive Judgments in a False-Memory Paradigm," <i>Neuroscience Research</i> (2024).</li>
@@ -122,12 +122,20 @@ title: Saurabh Ranjan | Cognitive Neuroscience & AI Research
 
       <div class="proj-content" id="reality-monitoring-llm">
         <h3>Reality Monitoring in LLMs</h3>
+        <img src="assets/images/projects/reality-monitoring-llm-paradigm.jpg" alt="Figure 1 from the preprint: a word-pair paradigm operationalizing reality monitoring in LLMs by contrasting external generation, internal generation, and reality-monitoring source judgments">
         <ul>
           <li>Tested whether six LLMs (Gemma3-12B/27B and their quantization-aware variants, Llama3.3-70B, Llama4-16x17B) show reality monitoring, adapting the same DRM-based paradigm and materials used in the human study.</li>
           <li>Experiment 1 (single-trial): self-generated items reached ceiling accuracy across all models regardless of memory condition, while externally-provided items showed substantial variability.</li>
+        </ul>
+        <img src="assets/images/projects/reality-monitoring-llm-architectures.jpg" alt="Figure 2 from the preprint: three conversational memory architectures (Single-Turn, Trial-Chain, Episodic-Chain) tested across Experiments 1 and 2">
+        <ul>
           <li>Experiment 2 (episodic delay): that pattern reversed once a memory delay removed the single-turn shortcut &mdash; mean accuracy fell to 66% for perceived items and 48% for imagined items.</li>
           <li>Found that corrective feedback restructures how source evidence maps to confidence differently across architectures &mdash; some models swap their internal/external judgments entirely, others gain accuracy while confidence decouples from correctness &mdash; a dissociation invisible to standard accuracy benchmarks and relevant to any AI system operating autonomously across long, multi-turn interactions.</li>
           <li>Across models, the failure pattern tracked active, not aggregate, parameter count &mdash; evidence that evaluating what a model knows isn't enough; tracking where that knowledge came from may matter just as much.</li>
+        </ul>
+        <img src="assets/images/projects/reality-monitoring-llm-metacognitive-sensitivity.jpg" alt="Figure 5 from the preprint: metacognitive sensitivity is consistently higher for external than internal items and is substantially reduced by corrective feedback and larger memory loads">
+        <ul>
+          <li>Metacognitive sensitivity (confidence tracking accuracy) was consistently higher for externally-provided items than self-generated ones, and corrective feedback sharply reduced it, especially at larger memory loads &mdash; models became less able to tell when their own confidence was warranted, not just less accurate.</li>
         </ul>
         <p class="proj-links"><a href="https://github.com/saurabhr/LLM-RM" target=_blank>GitHub: LLM-RM</a> &middot; <a href="https://arxiv.org/abs/2607.23927" target=_blank>Preprint (arXiv)</a></p>
       </div>

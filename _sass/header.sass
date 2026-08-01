@@ -1,14 +1,26 @@
 header
   width: 100%
 
+  .header-top
+    display: flex
+    align-items: flex-start
+    gap: 30px
+    @media #{$small}
+      flex-direction: column
+
   img
     width: 200px
-    margin-bottom: 20px
+    flex-shrink: 0
     @media #{$small}
       width: 100%
 
+  .header-info
+    flex: 1
+    min-width: 0
+
   h1
     margin-bottom: 20px
+    margin-top: 0
 
   .header-columns
     display: flex

@@ -37,45 +37,43 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 *University of Florida, Gainesville, FL*
 
-> •	Building AI agents with planning, reflection, tool use, and multi-agent coordination, using clinical and medical decision-making as the test domain for agentic-system design and evaluation.
+> •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical and medical decision-making, establishing UF's evaluation methodology for agentic-system design.
 
-> •	Engineering reproducible research pipelines (Python, PyTorch, LangChain/LangGraph, SLURM/HPC) for running and evaluating agentic workflows at scale.
+> •	Engineer reproducible research pipelines (PyTorch, LangChain/LangGraph, SLURM/HPC) that run and evaluate agentic workflows at scale.
 
-> •	Co-developing UF's Master's-level curriculum on Data Science and Agentic LLMs for [UF AI for Biomedical Health Sciences (AIBHS)](https://ic3.center.ufl.edu/education/aibhs/).
+> •	Co-develop UF's Master's-level curriculum on Data Science and Agentic LLMs for [UF AI for Biomedical Health Sciences (AIBHS)](https://ic3.center.ufl.edu/education/aibhs/).
 
 **Graduate Researcher**                                                                                                	                                   *2020 – 2025*
 
 *Odegaard Lab & UF Department of Psychology, Gainesville, FL*
 
-> •	**Hallucination & Self-Knowledge in LLMs:** Ran a two-experiment, six-model study on whether LLMs can tell their own generated content from user-provided content ("reality monitoring," the capability that fails during hallucination in both humans and LLMs). Source-attribution accuracy hit ceiling when conversational-memory demands were minimal, but reversed into a fragile external-item advantage once an episodic delay removed that shortcut, evidence that near-perfect single-turn benchmarks can mask an unreliable underlying mechanism.
+> •	Discovered that LLM source-attribution accuracy reverses under episodic memory delay, tested across 2 experiments and 6 transformer-based LLMs (Gemma3, Llama3.3, Llama4), a hallucination-relevant failure invisible to single-turn benchmarks.
 
-> •	**Mechanistic & Metacognitive Failure Modes:** Found that corrective feedback split models into two distinct failure patterns: some fully swapped their internal and external judgments, others gained raw accuracy while their confidence decoupled from correctness, a miscalibration that is arguably more dangerous than being wrong outright. The cross-model pattern tracked active, not aggregate, parameter count, suggesting engaged compute rather than scale drives introspective reliability.
+> •	Found that corrective feedback produces two distinct metacognitive failure modes and that failure severity tracks active, not aggregate, parameter count, publishing the result as a preprint (arXiv:2607.23927).
 
-> •	Designed and ran the underlying behavioral experiments with 100+ in-person human participants matched against LLM simulations across conversation-history and feedback conditions, producing a standardized human-LLM benchmarking pipeline built to be reused across models.
+> •	Designed and ran matched experiments with 100+ human participants and parallel LLM simulations, producing a reusable human-LLM benchmarking pipeline.
 
-> •	**Neuroimaging as an Interpretability Method:** Engineered ML pipelines for [MEG temporal generalization](https://github.com/saurabhr/predict_perception_imagination_tgm) and [fMRI linearizing encoding models](https://drive.google.com/file/d/19mZs-H6cwijz3ZLf41w1FYVcP_PmMGd9/view?usp=sharing), predicting phenotype from RS-fMRI on UK Biobank-scale data using the same linear-probe logic now used to interpret internal representations in LLMs.
+> •	Applied neuroimaging decoding methods ([MEG temporal generalization](https://github.com/saurabhr/predict_perception_imagination_tgm), [fMRI encoding models](https://drive.google.com/file/d/19mZs-H6cwijz3ZLf41w1FYVcP_PmMGd9/view?usp=sharing)) on UK Biobank-scale data, using the same linear-probing logic now standard in LLM interpretability.
 
-> •	**Imagination Networks Expose a Representational Gap:** Built psychological network models of imagination vividness from 2,743 human participants across Florida, Poland, and London, then compared them against six LLMs (12B-272B parameters). Human networks stayed highly consistent across populations (r = 0.31-0.93), while most LLM configurations collapsed into a single undifferentiated cluster regardless of scale, evidence that parameter count alone doesn't give a model the layered representational structure humans build from embodied experience.
+> •	Built psychological network models from 2,743 human participants and 6 LLMs (12B-272B parameters), showing human representational structure replicates across populations (r = 0.31-0.93) while LLMs fail to reproduce it at any scale.
 
-> •	**LLM Evaluation Infrastructure:** Authored [Psych Scanner](https://github.com/saurabhr/psychscanner/), a Python framework (LangChain \+ LangGraph \+ Pydantic) for running cognitive experiments on LLMs at scale with persona management, conversation-history manipulation, and population-level synthesis, and [metasignal](https://github.com/saurabhr/metasignal), a signal-detection-theory and metacognition library for scoring the resulting data; together, functionally similar to the internal evaluation pipelines research labs build to benchmark model behavior.
+> •	Authored two open-source Python frameworks, [Psych Scanner](https://github.com/saurabhr/psychscanner/) and [metasignal](https://github.com/saurabhr/metasignal), for running and scoring LLM cognitive experiments at scale.
 
-> •	Mentored 7 undergraduate researchers, co-authored conference posters (1 award-winning), and taught a full segment of Physiological Psychology.
+> •	Mentored 7 undergraduate researchers and taught a full segment of Physiological Psychology.
 
 **Research Assistant**                                                                                                   	                                   *2019 – 2020*
 
 *Center of Behavioral and Cognitive Sciences, University of Allahabad, India*
 
-> •	Studied the sense of agency for future-directed intentions using the intentional-binding paradigm: participants formed an intention for an outcome reached via an intermediate action, and predictive intermediate outcomes produced shorter time estimates and faster responses, both markers of stronger binding, consistent across three delays (300/500/700ms) and two contingency levels. Also contributed to human-agency and global-local perception studies using arrays of patches. Published as an [OSF preprint](https://osf.io/preprints/psyarxiv/qa93k_v1); the same construct, monitoring and correctly attributing one's own actions, now underlies how agentic AI systems track and self-correct across multi-step plans.
+> •	Studied the sense of agency for future-directed intentions using the intentional-binding paradigm, finding stronger binding for predictive intermediate outcomes across three delays (300/500/700ms) and two contingency levels; published as an [OSF preprint](https://osf.io/preprints/psyarxiv/qa93k_v1). The same construct, monitoring one's own actions, now underlies how agentic AI systems track and self-correct across multi-step plans.
 
 **Research Assistant**                                                                                                              	                                   *2018*
 
 *Homi Bhabha Centre for Science Education, TIFR, Mumbai, India*
 
-> •	Studied how gesture-based interaction with digital tools shapes conceptual understanding in STEM, using vectors as a test case: students usually meet them as static textbook arrows, never something to touch or rotate. The working idea behind the two studies below was that letting students manipulate a vector by hand changes what they understand about it, with implications for how embodied interaction shapes mathematical cognition.
+> •	Contributed statistical analysis for Touchy-Feely Vectors (TFV), a gesture-based tool for teaching vectors, piloted across 266 grade-11 students (3 experimental, 3 control classrooms); the experimental group reasoned differently about vectors and showed higher engagement. Published in [IEEE T4E 2019](https://ieeexplore.ieee.org/abstract/document/8983767).
 
-> •	Contributed statistical analysis for Touchy-Feely Vectors (TFV), a gesture-based geometric environment built for direct interaction rather than the video/animation-style "physical access" typical of edtech. TFV targeted students' well-documented difficulty with the geometric aspects of vectors in grade-11 physics and math, letting them manipulate vector quantities directly on the premise that bodily interaction shapes reasoning. Across six classrooms (3 experimental, 3 control; 266 students total), the experimental group reasoned differently about vectors and showed higher engagement, what the paper terms "epistemic access." Published as [Touchy Feely Affordances of Digital Technology for Embodied Interactions Can Enhance 'Epistemic Access'](https://ieeexplore.ieee.org/abstract/document/8983767) (2019 IEEE Tenth International Conference on Technology for Education (T4E)).
-
-> •	Contributed statistical analysis for this 3-year design study testing two TFV iterations. Pre-post testing of the first, a computer-based prototype, showed it helped students form a more integrated vector concept and reason better. The second, a textbook-linked touch-screen version, was field-tested across six classrooms (3 control, N=135; 3 experimental, N=131), boosting engagement in average students and model-based reasoning (geometry-algebra integration) in stronger ones. Published as [Touchy feely vectors: A compensatory design approach to support model-based reasoning](https://eric.ed.gov/?id=EJ1287838) (Journal of Computer Assisted Learning, 2021). 
+> •	Contributed statistical analysis for a 3-year field study of TFV (135 control vs. 131 experimental students), finding it improved model-based reasoning in stronger students and engagement in average ones. Published in the [Journal of Computer Assisted Learning, 2021](https://eric.ed.gov/?id=EJ1287838).
 
 **PAPERS**
 

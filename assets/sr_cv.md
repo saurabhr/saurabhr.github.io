@@ -85,7 +85,8 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 \[2\] 	**Ranjan, S.**, & Odegaard, B. Generalization of generation effect in reality monitoring.
 
-***Software***  
+***Software***
+
 \[2\] **Ranjan, S.**, Makwana, M., Sokratous, K., & Odegaard, B. metasignal: A Python package for comprehensive metacognitive analysis and decision-making. Can be viewed as Preprint on [Google Drive](https://drive.google.com/file/d/1BQ9KPfIt_0oLiXiHIHsCu7y6HtGs9HQJ/view?usp=sharing).
 
 \[1\] **Ranjan, S.**, Sokratous, K., & Makwana, M. [Psych Scanner: A Framework for Systematic Cognitive Evaluation of Large Language Models](https://psychscanner.readthedocs.io/en/latest/).

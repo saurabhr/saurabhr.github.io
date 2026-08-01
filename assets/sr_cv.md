@@ -39,7 +39,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 *University of Florida, Gainesville, FL*
 
-> •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical and medical decision-making, establishing UF's evaluation methodology for agentic-system design.
+> •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical and medical decision-making, for instructional material improving UF's readiness towards the AI.
 
 > •	Engineer reproducible research pipelines (PyTorch, LangChain/LangGraph, SLURM/HPC) that run and evaluate agentic workflows at scale.
 

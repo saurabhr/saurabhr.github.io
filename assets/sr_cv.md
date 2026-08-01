@@ -25,11 +25,11 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 ***AI / ML & LLMs:*** evaluation pipelines for LLM safety and hallucination detection, agentic workflows, retrieval-augmented generation (RAG), prompt engineering; PyTorch, HuggingFace, LangChain, LangGraph, Pydantic, scikit-learn
 
-***Interpretability & Representational Analysis:*** linearizing encoding models and temporal generalization analysis (linear probing of internal representations across layers and time), psychological network analysis for comparing representational structure across human and model populations, large-scale multivariate signal decoding (MEG/EEG with MNE, fMRI with Nilearn/SPM), predictive modeling on biobank-scale data (UK Biobank RS-fMRI → phenotype prediction)
+***Interpretability & Representational Analysis:*** linearizing encoding models and temporal generalization analysis (linear probing of internal representations across layers and time), psychological network analysis for comparing representational structure across human and model populations, multivariate signal decoding (MEG/EEG with MNE, fMRI with Nilearn/SPM), large-scale predictive modeling on UK Biobank RS-fMRI for phenotype prediction
 
 ***Statistical Modeling & Evaluation Design:*** Bayesian hierarchical models (PyMC3, brms), signal detection theory, generalized mixed-effects models (lme4), multinomial processing trees, network analysis (bootnet, qgraph), causal & metacognitive modeling
 
-***Data Engineering & MLOps:*** Python (expert), R (advanced), MATLAB, Bash; pandas, NumPy, Git/GitHub, SLURM/HPC, containerized environments, large-scale behavioral data collection (Prolific, Qualtrics, PsychoPy/JS)
+***Data Engineering & MLOps:*** Python, R, MATLAB, Bash; pandas, NumPy, Git/GitHub, SLURM/HPC, containerized environments, large-scale behavioral data collection (Prolific, Qualtrics, PsychoPy/JS)
 
 ***Visualization & Communication:*** seaborn, matplotlib, plotly, ggplot2, tidyverse — publication-ready figures, dashboards, and stakeholder reporting
 
@@ -41,7 +41,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 > •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical and medical decision-making, for instructional material improving UF's readiness towards the AI.
 
-> •	Engineer reproducible research pipelines (PyTorch, LangChain/LangGraph, SLURM/HPC) that run and evaluate agentic workflows at scale.
+> •	Engineer reproducible research pipelines (PyTorch, LangChain/LangGraph, Pydantic, SLURM/HPC) that run and evaluate agentic workflows at scale.
 
 > •	Co-develop UF's Master's-level curriculum on Data Science and Agentic LLMs for [UF AI for Biomedical Health Sciences (AIBHS)](https://ic3.center.ufl.edu/education/aibhs/).
 
@@ -55,7 +55,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 > •	Designed and ran matched experiments with 100+ human participants and parallel LLM simulations, producing a reusable human-LLM benchmarking pipeline.
 
-> •	Applied neuroimaging decoding methods ([MEG temporal generalization](https://github.com/saurabhr/predict_perception_imagination_tgm), [fMRI encoding models](https://drive.google.com/file/d/19mZs-H6cwijz3ZLf41w1FYVcP_PmMGd9/view?usp=sharing)) on UK Biobank-scale data, using the same linear-probing logic now standard in LLM interpretability.
+> •	Applied neuroimaging decoding methods ([MEG temporal generalization](https://github.com/saurabhr/predict_perception_imagination_tgm), [fMRI linearizing encoding models](https://drive.google.com/file/d/19mZs-H6cwijz3ZLf41w1FYVcP_PmMGd9/view?usp=sharing)) to predict perceptual and imagined states from brain activity, using the same linear-probing logic now standard in LLM interpretability.
 
 > •	Built psychological network models from 2,743 human participants and 6 LLMs (12B-272B parameters), showing human representational structure replicates across populations (r = 0.31-0.93) while LLMs fail to reproduce it at any scale.
 

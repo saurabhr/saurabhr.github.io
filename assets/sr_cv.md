@@ -11,15 +11,15 @@ Gainesville, FL, U.S.A.  •  ranjan.saurabh@outlook.com  •  saurabhr.github.i
 
 **EDUCATION**
 
-**Ph.D., Psychology — Behavioral & Cognitive Neuroscience**        	                         University of Florida, USA  \|  2025
+**Ph.D. Psychology — Behavioral & Cognitive Neuroscience**        	                         University of Florida, USA  \|  2025
 
 Dissertation: [Reality Monitoring in Humans and Artificial Intelligence](https://drive.google.com/file/d/1E2DNryR-QDjwCOMPBXRAJZMcsSAkyf0J/view?usp=sharing)
 
-**M.Sc., Cognitive Science**                                                          	                                 University of Allahabad, India  \|  2018
+**M.Sc. Cognitive Science**                                                          	                                 University of Allahabad, India  \|  2018
 
 Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/preprints/psyarxiv/qa93k)
 
-**B.Sc., Physics**                                                        	                           Birla Institute of Technology, Mesra, India  \|  2016
+**B.Sc. Physics**                                                        	                           Birla Institute of Technology, Mesra, India  \|  2016
 
 **CORE TECHNICAL STACK**
 
@@ -73,7 +73,11 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 *Homi Bhabha Centre for Science Education, TIFR, Mumbai, India*
 
-> •	Investigated in embodied cognition and vector education in 
+> •	Studied how gesture-based interaction with digital tools shapes conceptual understanding in STEM, using vectors as a test case: students usually meet them as static textbook arrows, never something to touch or rotate. The working idea behind the two studies below was that letting students manipulate a vector by hand changes what they understand about it, with implications for how embodied interaction shapes mathematical cognition.
+
+> •	Contributed statistical analysis for Touchy-Feely Vectors (TFV), a gesture-based geometric environment built for direct interaction rather than the video/animation-style "physical access" typical of edtech. TFV targeted students' well-documented difficulty with the geometric aspects of vectors in grade-11 physics and math, letting them manipulate vector quantities directly on the premise that bodily interaction shapes reasoning. Across six classrooms (3 experimental, 3 control; 266 students total), the experimental group reasoned differently about vectors and showed higher engagement, what the paper terms "epistemic access." Published as [Touchy Feely Affordances of Digital Technology for Embodied Interactions Can Enhance 'Epistemic Access'](https://ieeexplore.ieee.org/abstract/document/8983767) (2019 IEEE Tenth International Conference on Technology for Education (T4E)).
+
+> •	Contributed statistical analysis for this 3-year design study testing two TFV iterations. Pre-post testing of the first, a computer-based prototype, showed it helped students form a more integrated vector concept and reason better. The second, a textbook-linked touch-screen version, was field-tested across six classrooms (3 control, N=135; 3 experimental, N=131), boosting engagement in average students and model-based reasoning (geometry-algebra integration) in stronger ones. Published as [Touchy feely vectors: A compensatory design approach to support model-based reasoning](https://eric.ed.gov/?id=EJ1287838) (Journal of Computer Assisted Learning, 2021). 
 
 **PAPERS**
 
@@ -84,7 +88,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 ***Software***  
 \[2\] **Ranjan, S.**, Makwana, M., Sokratous, K., & Odegaard, B. metasignal: A Python package for comprehensive metacognitive analysis and decision-making. Can be viewed on Preprint on [Google Drive](https://drive.google.com/file/d/1BQ9KPfIt_0oLiXiHIHsCu7y6HtGs9HQJ/view?usp=sharing).
 
-\[1\] **Ranjan, S.**, Sokratous, K., & Makwana, M.[Psych Scanner: A Framework for Systematic Cognitive Evaluation of Large Language Models](https://psychscanner.readthedocs.io/en/latest/).
+\[1\] **Ranjan, S.**, Sokratous, K., & Makwana, M. [Psych Scanner: A Framework for Systematic Cognitive Evaluation of Large Language Models](https://psychscanner.readthedocs.io/en/latest/).
 
 ***Theory and Empirical Peer-Reviewed & Preprints***
 
@@ -104,7 +108,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 \[3\]	Karnam, D., Agrawal, H., Parte, P., **Ranjan, S.**, Borar, P., Kurup, P. P., … & Chandrasekharan, S. (2021). Touchy feely vectors: A compensatory design approach to support model-based reasoning. [*Journal of Computer Assisted Learning*,](https://eric.ed.gov/?id=EJ1287838) 37(2), 446–474.
 
-\[2\]	Karnam, D., Agrawal, H., Parte, P., **Ranjan, S.**, Sule, A., & Chandrasekharan, S. (2019). Touchy feely affordances of digital technology for embodied interactions can enhance 'epistemic access'. [*IEEE T4E*](https://ieeexplore.ieee.org/abstract/document/8983767): Technology for Education, 114–121.
+\[2\]	Karnam, D., Agrawal, H., Parte, P., **Ranjan, S.**, Sule, A., & Chandrasekharan, S. (2019). Touchy feely affordances of digital technology for embodied interactions can enhance 'epistemic access'. [*2019 IEEE Tenth International Conference on Technology for Education (T4E)*](https://ieeexplore.ieee.org/abstract/document/8983767), 114–121.
 
 \[1\]	\[Preprint\] **Ranjan, S.**, & Srinivasan, N. (2019). Sense of agency for future-directed intentions. [doi.org/10.31234/osf.io/qa93k](https://doi.org/10.31234/osf.io/qa93k).
 

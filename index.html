@@ -74,13 +74,10 @@ title: Saurabh Ranjan | Cognitive Neuroscience & AI Research
     <!-- Archived Conferences Tab
     <div id="conferences" class="tab-content"> 
     </div> -->
-    <!-- Embedded CV PDF -->
+    <!-- Rendered CV from assets/sr_cv.md -->
     <div id="cv" class="tab-content">
-  <iframe 
-    src="//docs.google.com/document/d/1zzXMdsL8ohJU5GovnTlNcJaPaIldo8muYOar8nekG9g/preview"
-    style="width: 100%; height: 100%; border: none; background-color: #ffffff; display: block;" 
-    title="Saurabh CV">
-</iframe>
+{% capture cv_markdown %}{% include_relative assets/sr_cv.md %}{% endcapture %}
+{{ cv_markdown | markdownify }}
 </div>
   </div>
 </div>

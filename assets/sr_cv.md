@@ -23,11 +23,11 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 **CORE TECHNICAL STACK**
 
-***AI / ML & LLMs:*** PyTorch, scikit-learn, LangChain, LangGraph, Pydantic, HuggingFace, prompt engineering, retrieval-augmented generation (RAG), agentic workflows, evaluation pipelines for LLM safety
+***AI / ML & LLMs:*** evaluation pipelines for LLM safety and hallucination detection, agentic workflows, retrieval-augmented generation (RAG), prompt engineering; PyTorch, HuggingFace, LangChain, LangGraph, Pydantic, scikit-learn
 
-***Biomedical & Health-Outcomes Methods*****:** predictive modeling on biobank-scale data (UK Biobank RS-fMRI → phenotype prediction), neuroimaging analytics (MEG/EEG with MNE, fMRI with Nilearn/SPM), linearizing encoding models, temporal generalization analysis, clinical-grade reproducible pipelines
+***Interpretability & Representational Analysis:*** linearizing encoding models and temporal generalization analysis (linear probing of internal representations across layers and time), psychological network analysis for comparing representational structure across human and model populations, large-scale multivariate signal decoding (MEG/EEG with MNE, fMRI with Nilearn/SPM), predictive modeling on biobank-scale data (UK Biobank RS-fMRI → phenotype prediction)
 
-***Statistical Modeling:*** Bayesian hierarchical models (PyMC3, brms), multinomial processing trees, network analysis (bootnet, qgraph), generalized mixed-effects models (lme4), causal & metacognitive modeling
+***Statistical Modeling & Evaluation Design:*** Bayesian hierarchical models (PyMC3, brms), signal detection theory, generalized mixed-effects models (lme4), multinomial processing trees, network analysis (bootnet, qgraph), causal & metacognitive modeling
 
 ***Data Engineering & MLOps:*** Python (expert), R (advanced), MATLAB, Bash; pandas, NumPy, Git/GitHub, SLURM/HPC, containerized environments, large-scale behavioral data collection (Prolific, Qualtrics, PsychoPy/JS)
 
@@ -39,35 +39,35 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 *University of Florida, Gainesville, FL*
 
-> •	Developing AI agents with planning, reflection, tool use, skills, and multi-agent systems for healthcare and medical decision making.
+> •	Building AI agents with planning, reflection, tool use, and multi-agent coordination, using clinical and medical decision-making as the test domain for agentic-system design and evaluation.
 
-> •	Building reproducible analytic pipelines (Python, PyTorch, LangChain/LangGraph, SLURM/HPC) for agentic decision-making tasks.
+> •	Engineering reproducible research pipelines (Python, PyTorch, LangChain/LangGraph, SLURM/HPC) for running and evaluating agentic workflows at scale.
 
-> •	Collaborating on the development of Master's-level courses on Data Science and Agentic LLMs for [UF AI for Biomedical Health Sciences (AIBHS)](https://ic3.center.ufl.edu/education/aibhs/).
+> •	Co-developing UF's Master's-level curriculum on Data Science and Agentic LLMs for [UF AI for Biomedical Health Sciences (AIBHS)](https://ic3.center.ufl.edu/education/aibhs/).
 
 **Graduate Researcher**                                                                                                	                                   *2020 – 2025*
 
 *Odegaard Lab & UF Department of Psychology, Gainesville, FL*
 
-> •    **Reality Monitoring & AI Safety:** Discovered generalizable behaviors that let humans and LLMs distinguish internally generated from externally generated information, called as reality monitoring, a core capability that fails during **hallucination in LLMs and as well as in humans**.
+> •	**Hallucination & Self-Knowledge in LLMs:** Ran a two-experiment, six-model study on whether LLMs can tell their own generated content from user-provided content ("reality monitoring," the capability that fails during hallucination in both humans and LLMs). Source-attribution accuracy hit ceiling when conversational-memory demands were minimal, but reversed into a fragile external-item advantage once an episodic delay removed that shortcut, evidence that near-perfect single-turn benchmarks can mask an unreliable underlying mechanism.
 
-> •	Designed and ran behavioral experiments with 100+ in-person human participants and matched LLM simulations across conversation-history and feedback conditions, producing standardized human–LLM benchmarking pipelines.
+> •	**Mechanistic & Metacognitive Failure Modes:** Found that corrective feedback split models into two distinct failure patterns: some fully swapped their internal and external judgments, others gained raw accuracy while their confidence decoupled from correctness, a miscalibration that is arguably more dangerous than being wrong outright. The cross-model pattern tracked active, not aggregate, parameter count, suggesting engaged compute rather than scale drives introspective reliability.
 
-> •	Identified a dissociation between single-trial and conversation-memory regimes in LLMs that inverts source-attribution accuracy, a finding with direct implications for how clinical assistants should manage chart history and cited evidence.
+> •	Designed and ran the underlying behavioral experiments with 100+ in-person human participants matched against LLM simulations across conversation-history and feedback conditions, producing a standardized human-LLM benchmarking pipeline built to be reused across models.
 
-> •	**Neuroimaging & Predictive Modeling:** Engineered ML pipelines for [MEG temporal generalization](https://github.com/saurabhr/predict_perception_imagination_tgm) and [fMRI linearizing encoding models](https://drive.google.com/file/d/19mZs-H6cwijz3ZLf41w1FYVcP_PmMGd9/view?usp=sharing); predicted phenotype from RS-fMRI on UK Biobank-scale data.
+> •	**Neuroimaging as an Interpretability Method:** Engineered ML pipelines for [MEG temporal generalization](https://github.com/saurabhr/predict_perception_imagination_tgm) and [fMRI linearizing encoding models](https://drive.google.com/file/d/19mZs-H6cwijz3ZLf41w1FYVcP_PmMGd9/view?usp=sharing), predicting phenotype from RS-fMRI on UK Biobank-scale data using the same linear-probe logic now used to interpret internal representations in LLMs.
 
-> •	**World Models as Psychological Imagination Network Analysis:** Built imagination networks across Florida, London, and Poland cohorts; used psychological network analysis to compare population-level cognitive structure between humans and synthesized LLM populations — methodology applicable to subgroup discovery in health data.
+> •	**Imagination Networks Expose a Representational Gap:** Built psychological network models of imagination vividness from 2,743 human participants across Florida, Poland, and London, then compared them against six LLMs (12B-272B parameters). Human networks stayed highly consistent across populations (r = 0.31-0.93), while most LLM configurations collapsed into a single undifferentiated cluster regardless of scale, evidence that parameter count alone doesn't give a model the layered representational structure humans build from embodied experience.
 
-> •    **Open-Source Tooling:** Authored [Psych Scanner](https://github.com/saurabhr/psychscanner/), a production-grade Python framework (LangChain \+ LangGraph \+ Pydantic) for running cognitive experiments with LLMs at scale; supports persona management, conversation-history manipulation, and population-level synthesis.
+> •	**LLM Evaluation Infrastructure:** Authored [Psych Scanner](https://github.com/saurabhr/psychscanner/), a Python framework (LangChain \+ LangGraph \+ Pydantic) for running cognitive experiments on LLMs at scale with persona management, conversation-history manipulation, and population-level synthesis, and [metasignal](https://github.com/saurabhr/metasignal), a signal-detection-theory and metacognition library for scoring the resulting data; together, functionally similar to the internal evaluation pipelines research labs build to benchmark model behavior.
 
-> •	Mentored 7 undergraduate researchers; co-authored conference posters (1 award-winning); developed and taught a full segment of Physiological Psychology.
+> •	Mentored 7 undergraduate researchers, co-authored conference posters (1 award-winning), and taught a full segment of Physiological Psychology.
 
 **Research Assistant**                                                                                                   	                                   *2019 – 2020*
 
 *Center of Behavioral and Cognitive Sciences, University of Allahabad, India*
 
-> •	Performed hpothesis, design, analysis on global–local perception using array of patches and human-agency studies; contributed to an [OSF preprint](https://osf.io/preprints/psyarxiv/qa93k_v1) on future directed intentional binding.
+> •	Studied the sense of agency for future-directed intentions using the intentional-binding paradigm: participants formed an intention for an outcome reached via an intermediate action, and predictive intermediate outcomes produced shorter time estimates and faster responses, both markers of stronger binding, consistent across three delays (300/500/700ms) and two contingency levels. Also contributed to human-agency and global-local perception studies using arrays of patches. Published as an [OSF preprint](https://osf.io/preprints/psyarxiv/qa93k_v1); the same construct, monitoring and correctly attributing one's own actions, now underlies how agentic AI systems track and self-correct across multi-step plans.
 
 **Research Assistant**                                                                                                              	                                   *2018*
 

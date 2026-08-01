@@ -1,5 +1,5 @@
 
-# ◆ SAURABH RANJAN ◆
+# • SAURABH RANJAN •
 
 Gainesville, FL, U.S.A.  •  ranjan.saurabh@outlook.com  •  saurabhr.github.io
 

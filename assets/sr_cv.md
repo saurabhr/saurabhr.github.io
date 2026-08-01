@@ -2,15 +2,15 @@
 
 **EDUCATION**
 
-**Ph.D., Psychology — Behavioral & Cognitive Neuroscience**        	                         University of Florida, USA  |  2025
+**Ph.D., Psychology — Behavioral & Cognitive Neuroscience**        	                         University of Florida, USA  \|  2025
 
 Dissertation: [Reality Monitoring in Humans and Artificial Intelligence](https://drive.google.com/file/d/1E2DNryR-QDjwCOMPBXRAJZMcsSAkyf0J/view?usp=sharing)
 
-**M.Sc., Cognitive Science**                                                          	                                 University of Allahabad, India  |  2018
+**M.Sc., Cognitive Science**                                                          	                                 University of Allahabad, India  \|  2018
 
 Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/preprints/psyarxiv/qa93k)
 
-**B.Sc., Physics**                                                        	                           Birla Institute of Technology, Mesra, India  |  2016
+**B.Sc., Physics**                                                        	                           Birla Institute of Technology, Mesra, India  \|  2016
 
 **CORE TECHNICAL STACK**
 

@@ -1,7 +1,7 @@
 
 # SAURABH RANJAN
 
-Gainesville, FL, U.S.A.  •  ranjan.saurabh@outlook.com  •  saurabhr.github.io
+Gainesville, FL, U.S.A.  •  ranjan[dot]saurabh[at]outlook[dot]com  •  [saurabhr.github.io](https://saurabhr.github.io)
 
 [LinkedIn](https://www.linkedin.com/in/saurabh-ranjan-440a273a1/)  •  [Blue Sky](https://bsky.app/profile/saurabhr.bsky.social)  •  [X](https://twitter.com/researchingcog)  •  [ORCID](https://orcid.org/0000-0002-7868-7223)
 

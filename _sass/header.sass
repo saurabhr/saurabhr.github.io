@@ -1,46 +1,31 @@
 header
   width: 100%
 
-  .header-top
-    display: flex
-    align-items: flex-start
-    gap: 24px
-
-  .header-info
-    flex: 1
-    min-width: 0
-
-  .header-photo
-    width: 160px
-    flex-shrink: 0
-    border-radius: 6px
+  img
+    width: 200px
+    margin-bottom: 20px
+    @media #{$small}
+      width: 100%
 
   h1
-    margin-bottom: 12px
+    margin-bottom: 20px
 
   .header-columns
     display: flex
-    gap: 40px
+    gap: 30px
 
   .header-tags,
   nav ul
     list-style: none
-    margin: 0
+    margin: 0 0 20px
     padding: 0
 
   .header-tags li,
   nav ul li
-    margin-bottom: 8px
+    margin-bottom: 10px
 
   small
     font-size: 0.7em
-
-  @media #{$below}
-    .header-top
-      flex-direction: column-reverse
-
-    .header-photo
-      width: 140px
 
   @media #{$small}
     .header-columns

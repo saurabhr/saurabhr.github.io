@@ -1,5 +1,5 @@
 
-# • SAURABH RANJAN •
+# SAURABH RANJAN
 
 Gainesville, FL, U.S.A.  •  ranjan.saurabh@outlook.com  •  saurabhr.github.io
 
@@ -19,7 +19,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 **B.Sc. Physics**                                                        	                           Birla Institute of Technology, Mesra, India  \|  2016
 
-**CORE TECHNICAL STACK**
+**TECHNICAL SKILLS**
 
 ***AI / ML & LLMs:*** evaluation pipelines for LLM safety and hallucination detection, agentic workflows, retrieval-augmented generation (RAG), prompt engineering; PyTorch, HuggingFace, LangChain, LangGraph, Pydantic, scikit-learn
 
@@ -77,14 +77,14 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 > •	Contributed statistical analysis for a 3-year field study of TFV (135 control vs. 131 experimental students), finding it improved model-based reasoning in stronger students and engagement in average ones. Published in the [Journal of Computer Assisted Learning, 2021](https://eric.ed.gov/?id=EJ1287838).
 
-**PAPERS**
+**PUBLICATIONS**
 
 ***Working Papers***
 
 \[2\] 	**Ranjan, S.**, & Odegaard, B. Generalization of generation effect in reality monitoring.
 
 ***Software***  
-\[2\] **Ranjan, S.**, Makwana, M., Sokratous, K., & Odegaard, B. metasignal: A Python package for comprehensive metacognitive analysis and decision-making. Can be viewed on Preprint on [Google Drive](https://drive.google.com/file/d/1BQ9KPfIt_0oLiXiHIHsCu7y6HtGs9HQJ/view?usp=sharing).
+\[2\] **Ranjan, S.**, Makwana, M., Sokratous, K., & Odegaard, B. metasignal: A Python package for comprehensive metacognitive analysis and decision-making. Can be viewed as Preprint on [Google Drive](https://drive.google.com/file/d/1BQ9KPfIt_0oLiXiHIHsCu7y6HtGs9HQJ/view?usp=sharing).
 
 \[1\] **Ranjan, S.**, Sokratous, K., & Makwana, M. [Psych Scanner: A Framework for Systematic Cognitive Evaluation of Large Language Models](https://psychscanner.readthedocs.io/en/latest/).
 

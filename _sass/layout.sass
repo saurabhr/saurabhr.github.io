@@ -1,37 +1,35 @@
 .layout
   width: 100%
   display: grid
-  grid-template-columns: min-content max-content auto
+  grid-template-columns: minmax(360px, 620px) auto
   align-items: start
   gap: 16px
   height: auto
   overflow-y: visible
 
-  &-header
-    grid-column: span 1
+.layout-main
+  min-width: 0
+
+  .layout-header
     text-align: left
     padding: 20px
 
-  &-section1
+  .layout-section1
     padding: 20px
-    max-width: 375px
 
-  &-section2
-    padding: 20px
-    max-width: 800px
-    overflow-y: hidden
+.layout-section2
+  padding: 20px
+  max-width: 800px
+  overflow-y: hidden
 
-    .bibbase_group
-      padding: 5px 10px 5px
+  .bibbase_group
+    padding: 5px 10px 5px
 
 @media (max-width: 1000px)
   .layout
     grid-template-columns: 1fr
     gap: 10px
 
-  .layout-header,
-  .layout-section1
-    grid-column: span 1
   .layout-section2
     grid-column: span 1
     height: 70vh

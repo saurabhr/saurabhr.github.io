@@ -57,7 +57,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 > •	Built psychological network models from 2,743 human participants and 6 LLMs (12B-272B parameters), showing human representational structure replicates across populations (r = 0.31-0.93) while LLMs fail to reproduce it at any scale.
 
-> •	Authored two open-source Python frameworks, [Psych Scanner](https://github.com/saurabhr/psychscanner/) and [metasignal](https://github.com/saurabhr/metasignal), for running and scoring LLM cognitive experiments at scale.
+> •	Authored [Psych Scanner](https://github.com/saurabhr/psychscanner/), an open-source Python framework for running LLM cognitive experiments at scale.
 
 > •	Mentored 7 undergraduate researchers and taught a full segment of Physiological Psychology.
 
@@ -65,7 +65,9 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 *Center of Behavioral and Cognitive Sciences, University of Allahabad, India*
 
-> •	Studied the sense of agency for future-directed intentions using the intentional-binding paradigm, finding stronger binding for predictive intermediate outcomes across three delays (300/500/700ms) and two contingency levels; published as an [OSF preprint](https://osf.io/preprints/psyarxiv/qa93k_v1). The same construct, monitoring one's own actions, now underlies how agentic AI systems track and self-correct across multi-step plans.
+> •	Found stronger intentional binding, a measure of sense of agency, for predictive intermediate outcomes than non-predictive ones, replicated across three delays (300/500/700ms) and two contingency levels; published as an [OSF preprint](https://osf.io/preprints/psyarxiv/qa93k_v1).
+
+> •	This construct, monitoring one's own actions, now underlies how agentic AI systems track and self-correct across multi-step plans.
 
 **Research Assistant**                                                                                                              	                                   *2018*
 

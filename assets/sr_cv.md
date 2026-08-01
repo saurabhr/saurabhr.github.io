@@ -83,7 +83,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 ***Working Papers***
 
-\[2\] 	**Ranjan, S.**, & Odegaard, B. Generalization of generation effect in reality monitoring.
+\[1\] 	**Ranjan, S.**, & Odegaard, B. Generalization of generation effect in reality monitoring.
 
 ***Software***
 

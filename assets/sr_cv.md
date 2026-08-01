@@ -5,7 +5,7 @@ Gainesville, FL, U.S.A.  •  ranjan[dot]saurabh[at]outlook[dot]com  •  [saura
 
 [LinkedIn](https://www.linkedin.com/in/saurabh-ranjan-440a273a1/)  •  [Blue Sky](https://bsky.app/profile/saurabhr.bsky.social)  •  [X](https://twitter.com/researchingcog)  •  [ORCID](https://orcid.org/0000-0002-7868-7223)
 
-**Ph.D. Cognitive Neuroscientist**  \|  **AI / ML Researcher**  \|  **Cognitive and Machine Psychology**  \|  **NeuroAI**
+**Ph.D. Cognitive Neuroscientist**  \|  **Cognitive and Machine Psychology**  \|  **Human-AI Alignment**  \|  **NeuroAI**
 
 ---
 
@@ -63,6 +63,8 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 > •	Built psychological network models from 2,743 human participants and 6 LLMs (12B-272B parameters), showing human representational structure replicates across populations (r = 0.31-0.93) while LLMs fail to reproduce it at any scale, suggesting a world model can be characterized purely from the structural relationships between internally generated experiences in imagination and memory.
 
+> •	Across these studies, LLMs showed distinct failures in knowing and accurately reporting their own knowledge, including at the largest scales tested (272B parameters) — a gap directly relevant to trusting and monitoring more capable future systems.
+
 > •	Authored [Psych Scanner](https://github.com/saurabhr/psychscanner/), an open-source Python framework for running LLM cognitive experiments at scale.
 
 > •	Mentored 7 undergraduate researchers and taught a full segment of Physiological Psychology.
@@ -94,6 +96,10 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 \[2\] **Ranjan, S.**, Makwana, M., Sokratous, K., & Odegaard, B. metasignal: A Python package for comprehensive metacognitive analysis and decision-making. Can be viewed as Preprint on [Google Drive](https://drive.google.com/file/d/1BQ9KPfIt_0oLiXiHIHsCu7y6HtGs9HQJ/view?usp=sharing).
 
 \[1\] **Ranjan, S.**, Sokratous, K., & Makwana, M. [Psych Scanner: A Framework for Systematic Cognitive Evaluation of Large Language Models](https://psychscanner.readthedocs.io/en/latest/).
+
+***Blog***
+
+\[1\] **Ranjan, S.** (2026). "Why Time Feels the Way It Does." *Synthetic Selves* (Substack). [https://syntheticselves.substack.com/p/why-time-feels-the-way-it-does](https://syntheticselves.substack.com/p/why-time-feels-the-way-it-does)
 
 ***Theory and Empirical Peer-Reviewed & Preprints***
 

@@ -57,7 +57,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 > •	Applied neuroimaging decoding methods ([MEG temporal generalization](https://github.com/saurabhr/predict_perception_imagination_tgm), [fMRI linearizing encoding models](https://drive.google.com/file/d/19mZs-H6cwijz3ZLf41w1FYVcP_PmMGd9/view?usp=sharing)) to predict perceptual and imagined states from brain activity, using the same linear-probing logic now standard in LLM interpretability.
 
-> •	Built psychological network models from 2,743 human participants and 6 LLMs (12B-272B parameters), showing human representational structure replicates across populations (r = 0.31-0.93) while LLMs fail to reproduce it at any scale.
+> •	Built psychological network models from 2,743 human participants and 6 LLMs (12B-272B parameters), showing human representational structure replicates across populations (r = 0.31-0.93) while LLMs fail to reproduce it at any scale, suggesting a world model can be characterized purely from the structural relationships between internally generated experiences in imagination and memory.
 
 > •	Authored [Psych Scanner](https://github.com/saurabhr/psychscanner/), an open-source Python framework for running LLM cognitive experiments at scale.
 

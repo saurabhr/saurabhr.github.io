@@ -53,9 +53,13 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 > •	Found that corrective feedback produces two distinct metacognitive failure modes and that failure severity tracks active, not aggregate, parameter count, publishing the result as a preprint (arXiv:2607.23927).
 
-> •	Designed and ran matched experiments with 100+ human participants and parallel LLM simulations, producing a reusable human-LLM benchmarking pipeline.
+> •	Designed and ran matched experiments with 100+ human participants and parallel LLM simulations, to generalize reality monitoring within human and LLM populations across task constraints.
 
-> •	Applied neuroimaging decoding methods ([MEG temporal generalization](https://github.com/saurabhr/predict_perception_imagination_tgm), [fMRI linearizing encoding models](https://drive.google.com/file/d/19mZs-H6cwijz3ZLf41w1FYVcP_PmMGd9/view?usp=sharing)) to predict perceptual and imagined states from brain activity, using the same linear-probing logic now standard in LLM interpretability.
+> •	Applied neuroimaging decoding methods using the same linear-probing logic now standard in LLM interpretability:
+>
+>> ◦	[MEG temporal generalization](https://github.com/saurabhr/predict_perception_imagination_tgm) to decode seen versus imagined experience
+>>
+>> ◦	[fMRI linearizing encoding models](https://drive.google.com/file/d/19mZs-H6cwijz3ZLf41w1FYVcP_PmMGd9/view?usp=sharing) to predict fMRI response from image memorability in the NSD dataset
 
 > •	Built psychological network models from 2,743 human participants and 6 LLMs (12B-272B parameters), showing human representational structure replicates across populations (r = 0.31-0.93) while LLMs fail to reproduce it at any scale, suggesting a world model can be characterized purely from the structural relationships between internally generated experiences in imagination and memory.
 

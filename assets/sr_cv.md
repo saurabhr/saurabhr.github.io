@@ -55,7 +55,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 > •	Designed and ran matched experiments with 100+ human participants and parallel LLM simulations, to generalize reality monitoring within human and LLM populations across task constraints.
 
-> •	Applied neuroimaging decoding methods using the same linear-probing logic now standard in LLM interpretability:
+> •	Applied neuroimaging decoding methods:
 >
 >> ◦	[MEG temporal generalization](https://github.com/saurabhr/predict_perception_imagination_tgm) to decode seen versus imagined experience
 >>

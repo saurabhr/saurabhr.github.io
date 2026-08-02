@@ -47,7 +47,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 **Research Assistant**                                                                                                   	                                   *2025 – 2026*
 
-*Andreas Keil Lab, University of Florida, Gainesville, FL*
+*Dr. Andreas Keil's Lab, University of Florida, Gainesville, FL*
 
 > •	Continued development of [Psych Scanner](https://github.com/saurabhr/psychscanner/), advancing it from version 0.1.0 to version 0.3.0.
 

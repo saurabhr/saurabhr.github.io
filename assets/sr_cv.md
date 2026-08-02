@@ -47,7 +47,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 **Graduate Researcher**                                                                                                	                                   *2020 – 2025*
 
-*Odegaard Lab & UF Department of Psychology, Gainesville, FL*
+*Dr. Brian Odegaard's PAC-Lab & UF Department of Psychology, Gainesville, FL*
 
 > •	Discovered that LLM source-attribution accuracy reverses under episodic memory delay, tested across 2 experiments and 6 transformer-based LLMs (Gemma3, Llama3.3, Llama4), a hallucination-relevant failure invisible to single-turn benchmarks.
 

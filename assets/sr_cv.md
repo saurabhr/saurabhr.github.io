@@ -99,7 +99,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 ***Software***
 
-\[2\] **Ranjan, S.**, Makwana, M., Sokratous, K., & Odegaard, B. metasignal: A Python package for comprehensive metacognitive analysis and decision-making. Can be viewed as Preprint on [Google Drive](https://drive.google.com/file/d/1BQ9KPfIt_0oLiXiHIHsCu7y6HtGs9HQJ/view?usp=sharing).
+\[2\] \[Preprint\] **Ranjan, S.**, Makwana, M., Sokratous, K., & Odegaard, B. (2026). Metasignal: A python package for comprehensive metacognitive analysis and decision-making. arXiv:2607.29093. [https://arxiv.org/abs/2607.29093](https://arxiv.org/abs/2607.29093)
 
 \[1\] **Ranjan, S.**, Sokratous, K., & Makwana, M. [Psych Scanner: A Framework for Systematic Cognitive Evaluation of Large Language Models](https://psychscanner.readthedocs.io/en/latest/).
 

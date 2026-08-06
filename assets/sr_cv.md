@@ -3,7 +3,7 @@
 
 Gainesville, FL, U.S.A.  •  ranjan[dot]saurabh[at]outlook[dot]com  •  [saurabhr.github.io](https://saurabhr.github.io)
 
-[LinkedIn](https://www.linkedin.com/in/saurabh-ranjan-440a273a1/)  •  [Blue Sky](https://bsky.app/profile/saurabhr.bsky.social)  •  [X](https://twitter.com/researchingcog)  •  [ORCID](https://orcid.org/0000-0002-7868-7223)
+[LinkedIn](https://www.linkedin.com/in/saurabh-ranjan-440a273a1/)  •  [GitHub](https://github.com/saurabhr)  •  [Blue Sky](https://bsky.app/profile/saurabhr.bsky.social)  •  [X](https://twitter.com/researchingcog)  •  [ORCID](https://orcid.org/0000-0002-7868-7223)
 
 **Ph.D. Cognitive Neuroscientist**  \|  **Cognitive and Machine Psychology**  \|  **Human-AI Alignment**  \|  **NeuroAI**
 
@@ -24,6 +24,8 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 **TECHNICAL SKILLS**
 
 ***AI / ML & LLMs:*** evaluation pipelines for LLM safety and hallucination detection, agentic workflows, retrieval-augmented generation (RAG), prompt engineering; PyTorch, HuggingFace, LangChain, LangGraph, Pydantic, scikit-learn
+
+***Coding-agent-native development:*** Claude / Claude Code for research infrastructure, documentation, and testing — used to build out Psych Scanner (docs, unit tests, custom-agent support) and to convert and validate MetaSignal's documentation onto readthedocs
 
 ***Interpretability & Representational Analysis:*** linearizing encoding models and temporal generalization analysis (linear probing of internal representations across layers and time), psychological network analysis for comparing representational structure across human and model populations, multivariate signal decoding (MEG/EEG with MNE, fMRI with Nilearn/SPM), large-scale predictive modeling on UK Biobank RS-fMRI for phenotype prediction
 

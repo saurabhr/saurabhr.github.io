@@ -23,17 +23,17 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 **TECHNICAL SKILLS**
 
-***AI / ML & LLMs:*** evaluation pipelines for LLM safety and hallucination detection, agentic workflows, retrieval-augmented generation (RAG), prompt engineering; PyTorch, HuggingFace, LangChain, LangGraph, Pydantic, scikit-learn
+***AI/ML & LLMs:*** LLM evaluation and hallucination-detection pipelines, agentic workflows, retrieval-augmented generation (RAG), prompt engineering; PyTorch, HuggingFace, LangChain, LangGraph, Pydantic, scikit-learn
 
-***Coding-agent-native development:*** Claude / Claude Code for research infrastructure, documentation, and testing — used to build out Psych Scanner (docs, unit tests, custom-agent support) and to convert and validate MetaSignal's documentation onto readthedocs
+***AI-Assisted Development:*** Claude Code for research infrastructure, documentation, and testing — built out Psych Scanner (docs, unit tests, custom-agent support) and migrated MetaSignal's documentation to Read the Docs
 
-***Interpretability & Representational Analysis:*** linearizing encoding models and temporal generalization analysis (linear probing of internal representations across layers and time), psychological network analysis for comparing representational structure across human and model populations, multivariate signal decoding (MEG/EEG with MNE, fMRI with Nilearn/SPM), large-scale predictive modeling on UK Biobank RS-fMRI for phenotype prediction
+***Interpretability & Representational Analysis:*** linear probing of internal representations across layers and time, encoding models, psychological network analysis comparing representational structure across human and model populations, multivariate signal decoding (MEG/EEG with MNE, fMRI with Nilearn/SPM), large-scale predictive modeling on UK Biobank resting-state fMRI
 
-***Statistical Modeling & Evaluation Design:*** Bayesian hierarchical models (PyMC3, brms), signal detection theory, generalized mixed-effects models (lme4), multinomial processing trees, network analysis (bootnet, qgraph), causal & metacognitive modeling
+***Statistical Modeling & Evaluation Design:*** Bayesian hierarchical models (PyMC3, brms), signal detection theory, generalized mixed-effects models (lme4), multinomial processing trees, network analysis (bootnet, qgraph), causal and metacognitive modeling
 
 ***Data Engineering & MLOps:*** Python, R, MATLAB, Bash; pandas, NumPy, Git/GitHub, SLURM/HPC, containerized environments, large-scale behavioral data collection (Prolific, Qualtrics, PsychoPy/JS)
 
-***Visualization & Communication:*** seaborn, matplotlib, plotly, ggplot2, tidyverse — publication-ready figures, dashboards, and stakeholder reporting
+***Visualization & Communication:*** seaborn, matplotlib, plotly, ggplot2, tidyverse — publication-ready figures, dashboards, stakeholder reporting
 
 **RESEARCH EXPERIENCE**
 
@@ -41,11 +41,11 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 *University of Florida, Gainesville, FL*
 
-> •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical and medical decision-making, and develop instructional material that improves UF's AI readiness.
+> •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical and medical decision-making, and develop instructional material contributing to UF's [#1 AI-readiness ranking among large public universities](https://news.ufl.edu/2026/07/ai-readiness/) (AIREDEX, 2026).
 
 > •	Engineer reproducible research pipelines (PyTorch, LangChain/LangGraph, Pydantic, SLURM/HPC) that run and evaluate agentic workflows at scale.
 
-> •	Co-develop UF's Master's-level curriculum on Data Science and Agentic LLMs for [UF AI for Biomedical Health Sciences (AIBHS)](https://ic3.center.ufl.edu/education/aibhs/).
+> •	Co-develop UF's Master's-level curriculum on Data Science and Agentic LLMs for [UF AI for Biomedical Health Sciences (AIBHS)](https://uf-aibhs.github.io/), including the [AI Passport Impact Project](https://uf-aibhs.github.io/AI-Passport-Impact-Project/) — 20 hands-on modules spanning Foundations, Clinical Application, and Basic Science tracks.
 
 **Research Assistant**                                                                                                   	                                   *2025 – 2026*
 

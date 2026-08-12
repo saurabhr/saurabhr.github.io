@@ -41,11 +41,11 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 *University of Florida, Gainesville, FL*
 
-> •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical and medical decision-making, and develop instructional material contributing to UF's [#1 AI-readiness ranking among large public universities](https://news.ufl.edu/2026/07/ai-readiness/) (AIREDEX, 2026).
+> •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical and medical decision-making, and develop instructional material — spanning Foundations, Clinical Application, and Basic Science tracks — contributing to UF's [#1 AI-readiness ranking among large public universities](https://news.ufl.edu/2026/07/ai-readiness/) (AIREDEX, 2026).
 
 > •	Engineer reproducible research pipelines (PyTorch, LangChain/LangGraph, Pydantic, SLURM/HPC) that run and evaluate agentic workflows at scale.
 
-> •	Co-develop UF's Master's-level curriculum on Data Science and Agentic LLMs for UF AI for Biomedical Health Sciences (AIBHS); built and maintain the [AIBHS Faculty Hub](https://uf-aibhs.github.io/) and [AI Passport Impact Project](https://uf-aibhs.github.io/AI-Passport-Impact-Project/) sites — 20 hands-on modules spanning Foundations, Clinical Application, and Basic Science tracks.
+> •	Co-develop UF's Master's-level curriculum on Data Science and Agentic LLMs for UF AI for Biomedical Health Sciences (AIBHS); built and maintain the [AIBHS Faculty Hub](https://uf-aibhs.github.io/) and [AI Passport Impact Project](https://uf-aibhs.github.io/AI-Passport-Impact-Project/) sites (20 hands-on modules).
 
 **Research Assistant**                                                                                                   	                                   *2025 – 2026*
 

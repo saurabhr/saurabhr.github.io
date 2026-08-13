@@ -1,7 +1,7 @@
 
 # SAURABH RANJAN
 
-Gainesville, FL, U.S.A.  •  saurabhr[dot]neuroai[at]proton[dot]me  •  [saurabhr.github.io](https://saurabhr.github.io)
+Gainesville, FL, U.S.A.  •  [saurabhr.neuroai@proton.me](mailto:saurabhr.neuroai@proton.me)  •  [saurabhr.github.io](https://saurabhr.github.io)
 
 [GitHub](https://github.com/saurabhr)  •  [Blue Sky](https://bsky.app/profile/saurabhr.bsky.social)  •  [X](https://twitter.com/researchingcog)  •  [ORCID](https://orcid.org/0000-0002-7868-7223)
 
@@ -37,7 +37,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 **RESEARCH EXPERIENCE**
 
-**Researcher — AI for Biomedical Health Outcomes**                                                          	                                   *2026*
+**Researcher — AI for Biomedical Health Outcomes**                                                          	                                   *2026 – Present*
 
 *University of Florida, Gainesville, FL*
 

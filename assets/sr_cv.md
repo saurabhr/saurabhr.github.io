@@ -23,15 +23,17 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 **TECHNICAL SKILLS**
 
-***AI/ML & LLMs:*** LLM evaluation and hallucination-detection pipelines, agentic workflows, retrieval-augmented generation (RAG), prompt engineering; PyTorch, HuggingFace, LangChain, LangGraph, Pydantic, scikit-learn
+***AI/ML & LLMs:*** LLM evaluation and hallucination-detection pipelines, agentic workflows, prompt engineering; PyTorch, HuggingFace, LangChain, LangGraph, Pydantic, scikit-learn
 
-***AI-Assisted Development:*** Claude Code for research infrastructure, documentation, and testing — built out Psych Scanner (docs, unit tests, custom-agent support) and migrated MetaSignal's documentation to Read the Docs
+***Developer Infrastructure & Automation:*** Accelerating research cycles by leveraging Claude Code to build testing suites, custom-agent support, and production documentation on Read the Docs
 
-***Interpretability & Representational Analysis:*** linear probing of internal representations across layers and time, encoding models, psychological network analysis comparing representational structure across human and model populations, multivariate signal decoding (MEG/EEG with MNE, fMRI with Nilearn/SPM), large-scale predictive modeling on UK Biobank resting-state fMRI
+***Model Interpretability & NeuroAI:*** Decoding internal neural representations across model layers and comparing human-vs-machine representational alignment using linear probing and encoding models
 
-***Statistical Modeling & Evaluation Design:*** Bayesian hierarchical models (PyMC3, brms), signal detection theory, generalized mixed-effects models (lme4), multinomial processing trees, network analysis (bootnet, qgraph), causal and metacognitive modeling
+***Advanced Signal & Predictive Analytics:*** Running large-scale predictive modeling on massive biobank datasets and decoding complex MEG/EEG/fMRI signals using MNE, Nilearn, and SPM
 
-***Data Engineering & MLOps:*** Python, R, MATLAB, Bash; pandas, NumPy, Git/GitHub, SLURM/HPC, containerized environments, large-scale behavioral data collection (Prolific, Qualtrics, PsychoPy/JS)
+***Statistical Rigor & Evaluation:*** Designing robust validation frameworks using Bayesian hierarchical modeling, signal detection theory, and mixed-effects models to evaluate system performance
+
+***Data Engineering & MLOps:*** Processing high-throughput behavioral and neural data using Python, R, and Bash across containerized HPC/SLURM clusters
 
 ***Visualization & Communication:*** seaborn, matplotlib, plotly, ggplot2, tidyverse — publication-ready figures, dashboards, stakeholder reporting
 
@@ -41,11 +43,9 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 *University of Florida, Gainesville, FL*
 
-> •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical and medical decision-making, and develop instructional material — spanning Foundations, Clinical Application, and Basic Science tracks — contributing to UF's [#1 AI-readiness ranking among large public universities](https://news.ufl.edu/2026/07/ai-readiness/) (AIREDEX, 2026).
+> •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical decision-making and co-develop UF's Master's-level curriculum on Data Science and Agentic LLMs for AI for Biomedical Health Sciences (AIBHS) — spanning Foundations, Clinical Application, and Basic Science tracks and engineered with reproducible pipelines (PyTorch, LangChain/LangGraph, SLURM/HPC) — contributing to UF's [#1 AI-readiness ranking among large public universities](https://news.ufl.edu/2026/07/ai-readiness/) (AIREDEX, 2026); built and maintain the [AIBHS Faculty Hub](https://uf-aibhs.github.io/) and [AI Passport Impact Project](https://uf-aibhs.github.io/AI-Passport-Impact-Project/) sites (20 hands-on modules).
 
-> •	Engineer reproducible research pipelines (PyTorch, LangChain/LangGraph, Pydantic, SLURM/HPC) that run and evaluate agentic workflows at scale.
-
-> •	Co-develop UF's Master's-level curriculum on Data Science and Agentic LLMs for UF AI for Biomedical Health Sciences (AIBHS); built and maintain the [AIBHS Faculty Hub](https://uf-aibhs.github.io/) and [AI Passport Impact Project](https://uf-aibhs.github.io/AI-Passport-Impact-Project/) sites (20 hands-on modules).
+> •	Developed Psych Scanner-Primal, an optimized infrastructure for the Prime Intellect Environments Hub, for evaluating AI models under Reinforcement Learning with Verifiable Rewards (RLVR).
 
 **Research Assistant**                                                                                                   	                                   *2025 – 2026*
 

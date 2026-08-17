@@ -23,19 +23,17 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 **TECHNICAL SKILLS**
 
-***AI/ML & LLMs:*** LLM evaluation and hallucination-detection pipelines, agentic workflows, prompt engineering; PyTorch, HuggingFace, LangChain, LangGraph, Pydantic, scikit-learn
+***AI/ML & LLMs:*** Agentic workflows (LangChain/LangGraph), LLM evaluation & hallucination-detection pipelines, prompt engineering; PyTorch, Hugging Face, scikit-learn, Pydantic
 
-***Developer Infrastructure & Automation:*** Accelerating research cycles by leveraging Claude Code to build testing suites, custom-agent support, and production documentation on Read the Docs
+***AI Tooling & Infra:*** Claude Code (agent testing/tooling), Psych Scanner, MetaSignal, Read the Docs
 
-***Model Interpretability & NeuroAI:*** Decoding internal neural representations across model layers and comparing human-vs-machine representational alignment using linear probing and encoding models
+***Interpretability & NeuroAI:*** Representation probing, encoding models, MEG/EEG (MNE), fMRI (Nilearn/SPM), UK Biobank predictive modeling
 
-***Advanced Signal & Predictive Analytics:*** Running large-scale predictive modeling on massive biobank datasets and decoding complex MEG/EEG/fMRI signals using MNE, Nilearn, and SPM
+***Stats & Evaluation:*** Bayesian hierarchical modeling (PyMC, brms), signal detection theory, mixed-effects models (lme4), metacognitive modeling
 
-***Statistical Rigor & Evaluation:*** Designing robust validation frameworks using Bayesian hierarchical modeling, signal detection theory, and mixed-effects models to evaluate system performance
+***Data Engineering & MLOps:*** Python, R, MATLAB, Bash; Pandas, NumPy, Git/GitHub, Docker, SLURM/HPC
 
-***Data Engineering & MLOps:*** Processing high-throughput behavioral and neural data using Python, R, and Bash across containerized HPC/SLURM clusters
-
-***Visualization & Communication:*** seaborn, matplotlib, plotly, ggplot2, tidyverse — publication-ready figures, dashboards, stakeholder reporting
+***Visualization:*** seaborn, matplotlib, plotly, ggplot2
 
 **RESEARCH EXPERIENCE**
 

@@ -41,11 +41,9 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 *University of Florida, Gainesville, FL*
 
-> •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical decision-making; engineer the reproducible pipelines (PyTorch, LangChain/LangGraph, SLURM/HPC) they run on.
-
 > •	Co-develop UF's Master's-level curriculum on Data Science and Agentic LLMs for AI for Biomedical Health Sciences (AIBHS), spanning Foundations, Clinical Application, and Basic Science tracks — contributing to UF's [#1 AI-readiness ranking among large public universities](https://news.ufl.edu/2026/07/ai-readiness/) (AIREDEX, 2026); built and maintain the [AIBHS Faculty Hub](https://uf-aibhs.github.io/) and [AI Passport Impact Project](https://uf-aibhs.github.io/AI-Passport-Impact-Project/) sites (20 hands-on modules).
 
-> •	Developed [Psych Scanner-Primal](https://saurabhr.github.io/psychscanner-primal/), an optimized fork of Psych Scanner for the Prime Intellect Environments Hub, extending machine-psychology evaluation to Reinforcement Learning with Verifiable Rewards (RLVR).
+> •	Build agentic AI systems (planning, reflection, tool use) for clinical decision-making on reproducible pipelines (PyTorch, LangChain/LangGraph, SLURM/HPC); extended this into [Psych Scanner-Primal](https://saurabhr.github.io/psychscanner-primal/), an optimized fork of Psych Scanner for the Prime Intellect Environments Hub, evaluating agentic systems under Reinforcement Learning with Verifiable Rewards (RLVR).
 
 **Research Assistant**                                                                                                   	                                   *2025 – 2026*
 

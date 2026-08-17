@@ -41,37 +41,31 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 *University of Florida, Gainesville, FL*
 
-> •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical decision-making and co-develop UF's Master's-level curriculum on Data Science and Agentic LLMs for AI for Biomedical Health Sciences (AIBHS) — spanning Foundations, Clinical Application, and Basic Science tracks and engineered with reproducible pipelines (PyTorch, LangChain/LangGraph, SLURM/HPC) — contributing to UF's [#1 AI-readiness ranking among large public universities](https://news.ufl.edu/2026/07/ai-readiness/) (AIREDEX, 2026); built and maintain the [AIBHS Faculty Hub](https://uf-aibhs.github.io/) and [AI Passport Impact Project](https://uf-aibhs.github.io/AI-Passport-Impact-Project/) sites (20 hands-on modules).
+> •	Build agentic AI systems (planning, reflection, tool use, multi-agent coordination) for clinical decision-making; engineer the reproducible pipelines (PyTorch, LangChain/LangGraph, SLURM/HPC) they run on.
 
-> •	Developed Psych Scanner-Primal, an optimized infrastructure for the Prime Intellect Environments Hub, for evaluating AI models under Reinforcement Learning with Verifiable Rewards (RLVR).
+> •	Co-develop UF's Master's-level curriculum on Data Science and Agentic LLMs for AI for Biomedical Health Sciences (AIBHS), spanning Foundations, Clinical Application, and Basic Science tracks — contributing to UF's [#1 AI-readiness ranking among large public universities](https://news.ufl.edu/2026/07/ai-readiness/) (AIREDEX, 2026); built and maintain the [AIBHS Faculty Hub](https://uf-aibhs.github.io/) and [AI Passport Impact Project](https://uf-aibhs.github.io/AI-Passport-Impact-Project/) sites (20 hands-on modules).
+
+> •	Developed [Psych Scanner-Primal](https://saurabhr.github.io/psychscanner-primal/), an optimized fork of Psych Scanner for the Prime Intellect Environments Hub, extending machine-psychology evaluation to Reinforcement Learning with Verifiable Rewards (RLVR).
 
 **Research Assistant**                                                                                                   	                                   *2025 – 2026*
 
 *Dr. Andreas Keil's Lab, University of Florida, Gainesville, FL*
 
-> •	Continued development of [Psych Scanner](https://github.com/saurabhr/psychscanner/), advancing it from version 0.1.0 to version 0.3.0.
+> •	Continued development of [Psych Scanner](https://github.com/saurabhr/psychscanner/), advancing it from version 0.1.0 to version 0.4.0.
 
 **Graduate Researcher**                                                                                                	                                   *2020 – 2025*
 
 *Dr. Brian Odegaard's PAC-Lab & UF Department of Psychology, Gainesville, FL*
 
-> •	Discovered that LLM source-attribution accuracy reverses under episodic memory delay, tested across 2 experiments and 6 transformer-based LLMs (Gemma3, Llama3.3, Llama4), a hallucination-relevant failure invisible to single-turn benchmarks.
+> •	Discovered that LLM source-attribution accuracy reverses under episodic memory delay, tested across 2 experiments and 6 transformer-based LLMs (Gemma3, Llama3.3, Llama4) — a hallucination-relevant failure invisible to single-turn benchmarks.
 
-> •	Found that corrective feedback produces two distinct metacognitive failure modes and that failure severity tracks active, not aggregate, parameter count, publishing the result as a preprint (arXiv:2607.23927).
+> •	Found that corrective feedback produces two distinct metacognitive failure modes, with failure severity tracking active rather than aggregate parameter count — a chain-of-thought-relevant self-knowledge gap that worsens, not improves, with scale (preprint, arXiv:2607.23927).
 
-> •	Designed and ran matched experiments with 100+ human participants and parallel LLM simulations, to generalize reality monitoring within human and LLM populations across task constraints.
+> •	Built psychological network models from 2,743 human participants and 6 LLMs (12B–272B parameters): human representational structure replicates across populations (r = 0.31–0.93) while no LLM tested reproduces it at any scale, suggesting a world model can be characterized purely from the structural relationships between internally generated experiences.
 
-> •	Applied neuroimaging decoding methods:
->
->> ◦	[MEG temporal generalization](https://github.com/saurabhr/predict_perception_imagination_tgm) to decode seen versus imagined experience
->>
->> ◦	[fMRI linearizing encoding models](https://drive.google.com/file/d/19mZs-H6cwijz3ZLf41w1FYVcP_PmMGd9/view?usp=sharing) to predict fMRI response from image memorability in the NSD dataset
+> •	Designed and ran matched experiments with 100+ human participants and parallel LLM simulations to test generalization of reality monitoring across task constraints, complemented by [MEG temporal generalization](https://github.com/saurabhr/predict_perception_imagination_tgm) decoding and [fMRI encoding models](https://drive.google.com/file/d/19mZs-H6cwijz3ZLf41w1FYVcP_PmMGd9/view?usp=sharing) predicting fMRI response from image memorability (NSD dataset) — the same seen-vs-imagined question, in humans.
 
-> •	Built psychological network models from 2,743 human participants and 6 LLMs (12B-272B parameters), showing human representational structure replicates across populations (r = 0.31-0.93) while LLMs fail to reproduce it at any scale, suggesting a world model can be characterized purely from the structural relationships between internally generated experiences in imagination and memory.
-
-> •	Across these studies, LLMs showed distinct failures in knowing and accurately reporting their own knowledge, including at the largest scales tested (272B parameters) — a gap directly relevant to trusting and monitoring more capable future systems.
-
-> •	Authored [Psych Scanner](https://github.com/saurabhr/psychscanner/), an open-source Python framework for running LLM cognitive experiments at scale.
+> •	Authored [Psych Scanner](https://github.com/saurabhr/psychscanner/) (v0.0.1) solo, an open-source framework for running cognitive experiments on LLMs at scale, and built [MetaSignal](https://github.com/saurabhr/metasignal), a Python package for metacognitive/signal-detection analysis.
 
 > •	Mentored 7 undergraduate researchers and taught a full segment of Physiological Psychology.
 
@@ -79,17 +73,13 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 *Center of Behavioral and Cognitive Sciences, University of Allahabad, India*
 
-> •	Found stronger intentional binding, a measure of sense of agency, for predictive intermediate outcomes than non-predictive ones, replicated across three delays (300/500/700ms) and two contingency levels; published as an [OSF preprint](https://osf.io/preprints/psyarxiv/qa93k_v1).
-
-> •	This construct, monitoring one's own actions, now underlies how agentic AI systems track and self-correct across multi-step plans.
+> •	Found stronger intentional binding — a measure of sense of agency — for predictive intermediate outcomes than non-predictive ones, replicated across three delays (300/500/700ms) and two contingency levels ([OSF preprint](https://osf.io/preprints/psyarxiv/qa93k_v1)).
 
 **Research Assistant**                                                                                                              	                                   *2018*
 
 *Homi Bhabha Centre for Science Education, TIFR, Mumbai, India*
 
-> •	Contributed statistical analysis for Touchy-Feely Vectors (TFV), a gesture-based tool for teaching vectors, piloted across 266 grade-11 students (3 experimental, 3 control classrooms); the experimental group reasoned differently about vectors and showed higher engagement. Published in [IEEE T4E 2019](https://ieeexplore.ieee.org/abstract/document/8983767).
-
-> •	Contributed statistical analysis for a 3-year field study of TFV (135 control vs. 131 experimental students), finding it improved model-based reasoning in stronger students and engagement in average ones. Published in the [Journal of Computer Assisted Learning, 2021](https://eric.ed.gov/?id=EJ1287838).
+> •	Contributed statistical analysis for Touchy-Feely Vectors (TFV), a gesture-based tool for teaching vectors, across two studies: a 266-student pilot (3 experimental, 3 control classrooms) where the experimental group reasoned differently about vectors and showed higher engagement ([IEEE T4E 2019](https://ieeexplore.ieee.org/abstract/document/8983767)), and a 3-year field study (135 control vs. 131 experimental students) showing improved model-based reasoning in stronger students and engagement in average ones ([Journal of Computer Assisted Learning, 2021](https://eric.ed.gov/?id=EJ1287838)).
 
 **PUBLICATIONS**
 

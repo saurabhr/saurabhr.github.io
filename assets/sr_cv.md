@@ -49,7 +49,7 @@ Thesis: [Intentional Binding in Future-Directed Intentions](https://osf.io/prepr
 
 *Dr. Andreas Keil's Lab, University of Florida, Gainesville, FL*
 
-> •	Continued development of [Psych Scanner](https://github.com/saurabhr/psychscanner/), advancing it from version 0.1.0 to version 0.4.0.
+> •	Continued development of [Psych Scanner](https://github.com/saurabhr/psychscanner/), advancing it from version 0.1.0 to version 0.4.0 — automating out-of-distribution (OOD) evaluation of LLMs using [800+](https://www.cognitiveatlas.org/) cognitive tasks and giving researchers a flexible, reproducible pipeline for running both standard and boutique cognitive paradigms.
 
 **Graduate Researcher**                                                                                                	                                   *2020 – 2025*
 

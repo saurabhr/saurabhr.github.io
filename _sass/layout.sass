@@ -1,4 +1,6 @@
 #theme-toggle
+  all: unset
+  box-sizing: border-box
   position: fixed
   top: 16px
   right: 16px
@@ -9,18 +11,24 @@
   align-items: center
   justify-content: center
   border-radius: 50%
-  background: var(--surface)
+  background-color: var(--surface) !important
+  background-image: none !important
   color: var(--on-surface)
   border: 1px solid var(--border-soft)
-  padding: 0
+  box-shadow: none !important
+  text-shadow: none !important
+  filter: none !important
   cursor: pointer
-  appearance: none
-  -webkit-appearance: none
-  outline: none
-  transition: background 0.25s, color 0.25s, transform 0.15s
+  contain: layout style paint
+  transform: translateZ(0)
+  transition: background-color 0.25s, color 0.25s, border-color 0.25s
+
+  &::before,
+  &::after
+    content: none !important
 
   &:hover
-    transform: scale(1.08)
+    border-color: var(--accent)
 
   &:focus-visible
     outline: 2px solid var(--accent)
@@ -29,6 +37,8 @@
   svg
     width: 18px
     height: 18px
+    flex-shrink: 0
+    overflow: visible
 
   .icon-moon
     display: none

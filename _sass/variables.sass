@@ -32,15 +32,15 @@ $small: "only screen and (max-width: 400px)"
   --border-faint: rgba(237, 230, 213, 0.15)
   --detail-bg: rgba(44, 30, 55, 0.6)
 
-:root
+html
   @include light-palette
 
 @media (prefers-color-scheme: dark)
-  :root:not([data-theme="light"])
+  html:not([data-theme="light"])
     @include dark-palette
 
-:root[data-theme="dark"]
+html[data-theme="dark"]
   @include dark-palette
 
-:root[data-theme="light"]
+html[data-theme="light"]
   @include light-palette

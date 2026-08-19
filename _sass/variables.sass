@@ -35,12 +35,5 @@ $small: "only screen and (max-width: 400px)"
 html
   @include light-palette
 
-@media (prefers-color-scheme: dark)
-  html:not([data-theme="light"])
-    @include dark-palette
-
 html[data-theme="dark"]
   @include dark-palette
-
-html[data-theme="light"]
-  @include light-palette

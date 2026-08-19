@@ -42,9 +42,9 @@ layout: compress
       var MOON = '<svg id="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>';
       var btn = document.getElementById('theme-toggle');
 
-      // A full element swap (not a CSS display toggle between two co-existing
-      // icons) - some browsers leave a stale repaint fragment behind when
-      // display is flipped between two SVGs sharing the same box.
+      /* Full element swap, not a CSS display toggle between two co-existing
+         icons - some browsers leave a stale repaint fragment behind when
+         display is flipped between two SVGs sharing the same box. */
       function render() {
         btn.innerHTML = document.documentElement.getAttribute('data-theme') === 'dark' ? MOON : SUN;
       }

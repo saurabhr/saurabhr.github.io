@@ -1,3 +1,36 @@
+#theme-toggle
+  position: fixed
+  top: 16px
+  right: 16px
+  z-index: 1000
+  width: 40px
+  height: 40px
+  display: flex
+  align-items: center
+  justify-content: center
+  border-radius: 50%
+  background: var(--surface)
+  color: var(--on-surface)
+  border: 1px solid var(--border-soft)
+  cursor: pointer
+  transition: background 0.25s, color 0.25s, transform 0.15s
+
+  &:hover
+    transform: scale(1.08)
+
+  svg
+    width: 18px
+    height: 18px
+
+  .icon-moon
+    display: none
+
+:root[data-theme="dark"] #theme-toggle
+  .icon-sun
+    display: none
+  .icon-moon
+    display: block
+
 .layout
   width: 100%
   display: grid

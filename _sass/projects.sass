@@ -1,7 +1,7 @@
 .projects-section
   margin: 20px auto 20px
   padding-top: 15px
-  border-top: 1px solid rgba(237, 230, 213, 0.15)
+  border-top: 1px solid var(--border-faint)
   max-width: 1500px
 
   h2
@@ -13,7 +13,7 @@
   max-width: 1500px
   margin: 0 auto
   padding: 20px 0 40px
-  border-top: 1px solid rgba(237, 230, 213, 0.15)
+  border-top: 1px solid var(--border-faint)
   font-size: 1em
   opacity: 0.8
 
@@ -25,7 +25,7 @@
   margin-top: 10px
 
   a
-    color: $beta
+    color: var(--text)
     line-height: 0
 
   svg
@@ -50,7 +50,7 @@
 
 .projects-col h3
   font-size: 1.4em
-  color: $alpha
+  color: var(--accent)
   margin-bottom: 15px
 
 .proj-list
@@ -64,9 +64,9 @@
   display: block
   width: 100%
   text-align: left
-  background: #19111f
-  color: $beta
-  border: 1px solid rgba(160, 133, 198, 0.3)
+  background: var(--surface)
+  color: var(--on-surface)
+  border: 1px solid var(--border-soft)
   border-radius: 5px
   padding: 14px 16px
   font-family: $font
@@ -75,20 +75,20 @@
   cursor: pointer
 
   &:hover
-    background: #2c1e37
+    background: var(--surface-alt)
 
   &.active
-    background: $alpha
-    color: #19111f
-    border-color: $alpha
+    background: var(--accent)
+    color: var(--on-accent)
+    border-color: var(--accent)
 
 .proj-sub
   font-size: 0.8em
   opacity: 0.7
 
 .projects-detail
-  background: rgba(44, 30, 55, 0.6)
-  border: 1px solid rgba(160, 133, 198, 0.3)
+  background: var(--detail-bg)
+  border: 1px solid var(--border-soft)
   border-radius: 8px
   padding: 22px
   font-size: 15px

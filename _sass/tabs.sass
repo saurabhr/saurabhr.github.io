@@ -8,29 +8,30 @@
 .tabs-header
   display: flex
   justify-content: space-between
-  background-color: #19111f
+  background-color: var(--surface)
 
 .tab-button
   flex: 1
   padding: 10px
-  color: #fff
+  color: var(--on-surface)
   background: none
   border: none
   text-align: center
   cursor: pointer
   font-size: 14px
-  border-right: 1px solid #444
+  border-right: 1px solid var(--border-soft)
 
   &:last-child
     border-right: none
 
   &.active
-    background-color: #a085c6
+    background-color: var(--accent)
+    color: var(--on-accent)
 
 .tabs-content
   display: block
   padding: 15px
-  color: #fff
+  color: var(--on-surface)
   height: 100%
 
 .tab-content

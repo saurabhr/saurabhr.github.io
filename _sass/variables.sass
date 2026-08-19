@@ -1,9 +1,46 @@
 $font: "Arial", sans-serif
 
-$alpha: #a085c6
-$beta: #ede6d5
-$gama: #fcd174
-
 $above: "only screen and (min-width: 600px)"
 $below: "only screen and (max-width: 600px)"
 $small: "only screen and (max-width: 400px)"
+
+@mixin light-palette
+  --bg-1: #fff
+  --bg-2: #f2ecdf
+  --text: #241a2c
+  --accent: #7c5295
+  --accent-hover: #96700a
+  --surface: #f4eee0
+  --surface-alt: #e9dfc7
+  --on-surface: #241a2c
+  --on-accent: #fff
+  --border-soft: rgba(124, 82, 149, 0.35)
+  --border-faint: rgba(36, 26, 44, 0.15)
+  --detail-bg: rgba(244, 238, 224, 0.6)
+
+@mixin dark-palette
+  --bg-1: #19111f
+  --bg-2: #2c1e37
+  --text: #ede6d5
+  --accent: #a085c6
+  --accent-hover: #fcd174
+  --surface: #19111f
+  --surface-alt: #2c1e37
+  --on-surface: #ede6d5
+  --on-accent: #19111f
+  --border-soft: rgba(160, 133, 198, 0.3)
+  --border-faint: rgba(237, 230, 213, 0.15)
+  --detail-bg: rgba(44, 30, 55, 0.6)
+
+:root
+  @include light-palette
+
+@media (prefers-color-scheme: dark)
+  :root:not([data-theme="light"])
+    @include dark-palette
+
+:root[data-theme="dark"]
+  @include dark-palette
+
+:root[data-theme="light"]
+  @include light-palette

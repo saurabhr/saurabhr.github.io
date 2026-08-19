@@ -1,35 +1,24 @@
 body
-  color: #111
-  background: #fff
-
-body
-  background: -webkit-linear-gradient(left, #19111f 0%, #2c1e37 100%)
-  background: -moz-linear-gradient(left, #19111f 0%, #2c1e37 100%)
-  background: -o-linear-gradient(left, #19111f 0%, #2c1e37 100%)
-  background: -ms-linear-gradient(left, #19111f 0%, #2c1e37 100%)
-  background: linear-gradient(to right, #19111f 0%, #2c1e37 100%)
-  color: $beta
+  background: linear-gradient(to right, var(--bg-1) 0%, var(--bg-2) 100%)
+  color: var(--text)
   font-family: $font
   font-size: 14px
   margin: 16px 16px 0
   height: 100vh
+  transition: background 0.25s, color 0.25s
 
   @media #{$below}
     margin: 8px 8px 0
 
 a
-  color: $alpha
+  color: var(--accent)
   text-decoration: none
   font-size: 1em
-  -webkit-transition: all 1s
-  -moz-transition: all 1s
-  -o-transition: all 1s
-  -ms-transition: all 1s
-  transition: all 1s
+  transition: color 0.25s, border-color 0.25s
 
   &:hover
-    color: $gama
-    border-color: $gama
+    color: var(--accent-hover)
+    border-color: var(--accent-hover)
 
 p,
 span
